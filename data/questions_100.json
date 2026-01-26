@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "q_438375",
+    "question": "What is the purpose of Soviet?",
+    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_554021",
+    "question": "Who discovered CNNs?",
+    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "source_title": "Convolutional neural network",
+    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+    ]
+  },
+  {
+    "id": "q_554021",
+    "question": "What is the purpose of Convolutional?",
+    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "source_title": "Convolutional neural network",
+    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+    ]
+  },
+  {
+    "id": "q_761176",
+    "question": "What are the main characteristics of Google DeepMind?",
+    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_438375",
+    "question": "Why is Soviet important?",
+    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_617561",
+    "question": "What is the purpose of Cold War,?",
+    "answer": "With the United States' victory and reunification, slavery was abolished nationally",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_1",
+    "source_url": "https://en.wikipedia.org/wiki/United_States",
+    "source_title": "United States",
+    "source_text_preview": "With the United States' victory and reunification, slavery was abolished nationally. Beginning in th...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/United_States"
+    ]
+  },
+  {
+    "id": "q_725798",
+    "question": "What are the main characteristics of Allied?",
+    "answer": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a global conflict between two coalitions: the Allies and the Axis powers",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_0",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a glob...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_827499",
+    "question": "What are the main characteristics of The?",
+    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+    "source_title": "Recurrent neural network",
+    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
+    ]
+  },
+  {
+    "id": "q_403813",
+    "question": "How does Soon work?",
+    "answer": "The success was due to the availability of powerful computer hardware, the collection of immense data sets, and the application of solid mathematical methods",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_1",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+    "source_title": "History of artificial intelligence",
+    "source_text_preview": "The success was due to the availability of powerful computer hardware, the collection of immense dat...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_761176",
+    "question": "What is OpenAI, Google?",
+    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "How does Artificial work?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_315279",
+    "question": "What are the main characteristics of Shaped?",
+    "answer": "Shaped by centuries of immigration, the culture of the U.S",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_2",
+    "source_url": "https://en.wikipedia.org/wiki/United_States",
+    "source_title": "United States",
+    "source_text_preview": "Shaped by centuries of immigration, the culture of the U.S. is diverse and globally influential. Mak...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/United_States"
+    ]
+  },
+  {
+    "id": "q_579557",
+    "question": "When was Contention developed?",
+    "answer": "# Artificial general intelligence Artificial general intelligence (AGI) is a hypothetical type of artificial intelligence that would match or surpass human capabilities across virtually all cognitive tasks",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_general_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "source_title": "Artificial general intelligence",
+    "source_text_preview": "# Artificial general intelligence Artificial general intelligence (AGI) is a hypothetical type of ar...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+    ]
+  },
+  {
+    "id": "q_976458",
+    "question": "How does These work?",
+    "answer": "# Biology Biology is the scientific study of life and living organisms",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Biology_0",
+    "source_url": "https://en.wikipedia.org/wiki/Biology",
+    "source_title": "Biology",
+    "source_text_preview": "# Biology Biology is the scientific study of life and living organisms. It is a broad natural scienc...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Biology"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "Why is Google Search); important?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_686281",
+    "question": "What are the main characteristics of Victory?",
+    "answer": "# United States The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_0",
+    "source_url": "https://en.wikipedia.org/wiki/United_States",
+    "source_title": "United States",
+    "source_text_preview": "# United States The United States of America (USA), also known as the United States (U.S.) or Americ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/United_States"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "How does OpenAI, Google work?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_107142",
+    "question": "Why is The important?",
+    "answer": "The modern theory is formulated in various specially developed mathematical formalisms",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Quantum_mechanics_1",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
+    "source_title": "Quantum mechanics",
+    "source_text_preview": "The modern theory is formulated in various specially developed mathematical formalisms. In one of th...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Quantum_mechanics"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "What are the main characteristics of OpenAI, Google?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_097495",
+    "question": "What are the main characteristics of Human?",
+    "answer": "# Climate change Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_0",
+    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
+    "source_title": "Climate change",
+    "source_text_preview": "# Climate change Present-day climate change includes both global warming—the ongoing increase in glo...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Climate_change"
+    ]
+  },
+  {
+    "id": "q_827499",
+    "question": "How does RNNs work?",
+    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+    "source_title": "Recurrent neural network",
+    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "How does Google Assistant, work?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_403813",
+    "question": "Who established These?",
+    "answer": "The success was due to the availability of powerful computer hardware, the collection of immense data sets, and the application of solid mathematical methods",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_1",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+    "source_title": "History of artificial intelligence",
+    "source_text_preview": "The success was due to the availability of powerful computer hardware, the collection of immense dat...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_865679",
+    "question": "When was North Africa built?",
+    "answer": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany conquered Norway, Belgium, Luxembourg and the Netherlands",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_1",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_438375",
+    "question": "How does Soviet Union work?",
+    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
+    "question_type": "factual",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_761176",
+    "question": "How does Artificial differ from This in terms of cost?",
+    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_450082",
+    "question": "Compare Convolutional with The.",
+    "answer": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer is connected to all neurons in the next layer",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_1",
+    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "source_title": "Convolutional neural network",
+    "source_text_preview": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+    ]
+  },
+  {
+    "id": "q_265283",
+    "question": "What are the differences between Dartmouth College and Governments?",
+    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+    "source_title": "History of artificial intelligence",
+    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_356609",
+    "question": "What are the differences between The and Chemistry Chemistry?",
+    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
+    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
+    "source_title": "Chemistry",
+    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ]
+  },
+  {
+    "id": "q_700488",
+    "question": "Compare Common Crawl) with For.",
+    "answer": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Unsupervised_learning_0",
+    "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+    "source_title": "Unsupervised learning",
+    "source_text_preview": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Unsupervised_learning"
+    ]
+  },
+  {
+    "id": "q_450082",
+    "question": "What advantages does The have over Convolutional?",
+    "answer": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer is connected to all neurons in the next layer",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_1",
+    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "source_title": "Convolutional neural network",
+    "source_text_preview": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+    ]
+  },
+  {
+    "id": "q_865679",
+    "question": "What are the differences between Belgium, Luxembourg and Harbor?",
+    "answer": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany conquered Norway, Belgium, Luxembourg and the Netherlands",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_1",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_554021",
+    "question": "Compare Vanishing with For.",
+    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "source_title": "Convolutional neural network",
+    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+    ]
+  },
+  {
+    "id": "q_085590",
+    "question": "What advantages does Even have over The?",
+    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+    "source_title": "Explainable artificial intelligence",
+    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_761176",
+    "question": "How is OpenAI, Google similar to Some?",
+    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_438375",
+    "question": "Compare Africa with The.",
+    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_373062",
+    "question": "What advantages does Niels Bohr, have over Schrödinger, Werner?",
+    "answer": "# Quantum mechanics Quantum mechanics is the fundamental physical theory that describes the behavior of matter and of light; its unusual characteristics typically occur at and below the scale of atoms",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Quantum_mechanics_0",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
+    "source_title": "Quantum mechanics",
+    "source_text_preview": "# Quantum mechanics Quantum mechanics is the fundamental physical theory that describes the behavior...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Quantum_mechanics"
+    ]
+  },
+  {
+    "id": "q_265283",
+    "question": "How is Governments similar to Seven?",
+    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+    "source_title": "History of artificial intelligence",
+    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_356609",
+    "question": "How is Chemistry similar to DNA?",
+    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
+    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
+    "source_title": "Chemistry",
+    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ]
+  },
+  {
+    "id": "q_827499",
+    "question": "How is RNN similar to Recurrent?",
+    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+    "source_title": "Recurrent neural network",
+    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
+    ]
+  },
+  {
+    "id": "q_085590",
+    "question": "What advantages does The have over Even?",
+    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+    "source_title": "Explainable artificial intelligence",
+    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_085590",
+    "question": "Compare The with This.",
+    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+    "source_title": "Explainable artificial intelligence",
+    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_356609",
+    "question": "Compare Chemistry with Chemistry Chemistry.",
+    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
+    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
+    "source_title": "Chemistry",
+    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ]
+  },
+  {
+    "id": "q_700488",
+    "question": "How does Boltzmann differ from There in terms of performance?",
+    "answer": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Unsupervised_learning_0",
+    "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+    "source_title": "Unsupervised learning",
+    "source_text_preview": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Unsupervised_learning"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "Compare YouTube, Amazon, with Google Search);.",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_085590",
+    "question": "What advantages does Explainable have over This?",
+    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+    "source_title": "Explainable artificial intelligence",
+    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_865679",
+    "question": "What are the differences between States and Pearl Harbor?",
+    "answer": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany conquered Norway, Belgium, Luxembourg and the Netherlands",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_1",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_827499",
+    "question": "What are the differences between This and The?",
+    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+    "source_title": "Recurrent neural network",
+    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
+    ]
+  },
+  {
+    "id": "q_700488",
+    "question": "What advantages does Unsupervised have over Other?",
+    "answer": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Unsupervised_learning_0",
+    "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+    "source_title": "Unsupervised learning",
+    "source_text_preview": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Unsupervised_learning"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "How is Google Search); similar to Various?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "comparative",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_725798",
+    "question": "What conclusions can be drawn about Axis?",
+    "answer": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a global conflict between two coalitions: the Allies and the Axis powers",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_0",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a glob...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_097495",
+    "question": "If {condition}, what would happen to World Health?",
+    "answer": "# Climate change Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_0",
+    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
+    "source_title": "Climate change",
+    "source_text_preview": "# Climate change Present-day climate change includes both global warming—the ongoing increase in glo...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Climate_change"
+    ]
+  },
+  {
+    "id": "q_356609",
+    "question": "What conclusions can be drawn about DNA?",
+    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
+    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
+    "source_title": "Chemistry",
+    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ]
+  },
+  {
+    "id": "q_579557",
+    "question": "What conclusions can be drawn about Beyond AGI,?",
+    "answer": "# Artificial general intelligence Artificial general intelligence (AGI) is a hypothetical type of artificial intelligence that would match or surpass human capabilities across virtually all cognitive tasks",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_general_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
+    "source_title": "Artificial general intelligence",
+    "source_text_preview": "# Artificial general intelligence Artificial general intelligence (AGI) is a hypothetical type of ar...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+    ]
+  },
+  {
+    "id": "q_976458",
+    "question": "If {condition}, what would happen to Earth?",
+    "answer": "# Biology Biology is the scientific study of life and living organisms",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Biology_0",
+    "source_url": "https://en.wikipedia.org/wiki/Biology",
+    "source_title": "Biology",
+    "source_text_preview": "# Biology Biology is the scientific study of life and living organisms. It is a broad natural scienc...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Biology"
+    ]
+  },
+  {
+    "id": "q_686281",
+    "question": "How might Southern Colonies' affect {other_entity}?",
+    "answer": "# United States The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_0",
+    "source_url": "https://en.wikipedia.org/wiki/United_States",
+    "source_title": "United States",
+    "source_text_preview": "# United States The United States of America (USA), also known as the United States (U.S.) or Americ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/United_States"
+    ]
+  },
+  {
+    "id": "q_761176",
+    "question": "How might Artificial affect {other_entity}?",
+    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_097495",
+    "question": "If {condition}, what would happen to Industrial Revolution?",
+    "answer": "# Climate change Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_0",
+    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
+    "source_title": "Climate change",
+    "source_text_preview": "# Climate change Present-day climate change includes both global warming—the ongoing increase in glo...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Climate_change"
+    ]
+  },
+  {
+    "id": "q_686281",
+    "question": "What conclusions can be drawn about Civil War?",
+    "answer": "# United States The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_0",
+    "source_url": "https://en.wikipedia.org/wiki/United_States",
+    "source_title": "United States",
+    "source_text_preview": "# United States The United States of America (USA), also known as the United States (U.S.) or Americ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/United_States"
+    ]
+  },
+  {
+    "id": "q_438375",
+    "question": "Based on the information, what can be inferred about September?",
+    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_450082",
+    "question": "How might The affect {other_entity}?",
+    "answer": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer is connected to all neurons in the next layer",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_1",
+    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "source_title": "Convolutional neural network",
+    "source_text_preview": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+    ]
+  },
+  {
+    "id": "q_311905",
+    "question": "Based on the information, what can be inferred about Physics?",
+    "answer": "# Physics Physics is the scientific study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Physics_0",
+    "source_url": "https://en.wikipedia.org/wiki/Physics",
+    "source_title": "Physics",
+    "source_text_preview": "# Physics Physics is the scientific study of matter, its fundamental constituents, its motion and be...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Physics"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "If {condition}, what would happen to DeepMind?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_761176",
+    "question": "What conclusions can be drawn about Ethical?",
+    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_265283",
+    "question": "If {condition}, what would happen to British Governments?",
+    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+    "source_title": "History of artificial intelligence",
+    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_120683",
+    "question": "What conclusions can be drawn about These?",
+    "answer": "The World Health Organization calls climate change one of the biggest threats to global health in the 21st century",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_1",
+    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
+    "source_title": "Climate change",
+    "source_text_preview": "The World Health Organization calls climate change one of the biggest threats to global health in th...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Climate_change"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "If {condition}, what would happen to Various?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_356609",
+    "question": "What conclusions can be drawn about Moon?",
+    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
+    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
+    "source_title": "Chemistry",
+    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "If {condition}, what would happen to Google Assistant,?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "How might DeepMind affect {other_entity}?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_120683",
+    "question": "If {condition}, what would happen to There?",
+    "answer": "The World Health Organization calls climate change one of the biggest threats to global health in the 21st century",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_1",
+    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
+    "source_title": "Climate change",
+    "source_text_preview": "The World Health Organization calls climate change one of the biggest threats to global health in th...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Climate_change"
+    ]
+  },
+  {
+    "id": "q_617561",
+    "question": "How might Enlightenment affect {other_entity}?",
+    "answer": "With the United States' victory and reunification, slavery was abolished nationally",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_1",
+    "source_url": "https://en.wikipedia.org/wiki/United_States",
+    "source_title": "United States",
+    "source_text_preview": "With the United States' victory and reunification, slavery was abolished nationally. Beginning in th...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/United_States"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "What conclusions can be drawn about Some?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_265283",
+    "question": "Based on the information, what can be inferred about Congress?",
+    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+    "source_title": "History of artificial intelligence",
+    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_097495",
+    "question": "How might Human affect {other_entity}?",
+    "answer": "# Climate change Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system",
+    "question_type": "inferential",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_0",
+    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
+    "source_title": "Climate change",
+    "source_text_preview": "# Climate change Present-day climate change includes both global warming—the ongoing increase in glo...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Climate_change"
+    ]
+  },
+  {
+    "id": "q_356609",
+    "question": "What is the relationship between Chemistry Chemistry and The through {entity3}?",
+    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
+    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
+    "source_title": "Chemistry",
+    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ]
+  },
+  {
+    "id": "q_725798",
+    "question": "What are the common factors between Poland and Korea in the context of {topic}?",
+    "answer": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a global conflict between two coalitions: the Allies and the Axis powers",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_0",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a glob...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_315279",
+    "question": "What is the relationship between Making and Shaped through {entity3}?",
+    "answer": "Shaped by centuries of immigration, the culture of the U.S",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_2",
+    "source_url": "https://en.wikipedia.org/wiki/United_States",
+    "source_title": "United States",
+    "source_text_preview": "Shaped by centuries of immigration, the culture of the U.S. is diverse and globally influential. Mak...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/United_States"
+    ]
+  },
+  {
+    "id": "q_976458",
+    "question": "How did {event1} lead to {event2}?",
+    "answer": "# Biology Biology is the scientific study of life and living organisms",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Biology_0",
+    "source_url": "https://en.wikipedia.org/wiki/Biology",
+    "source_title": "Biology",
+    "source_text_preview": "# Biology Biology is the scientific study of life and living organisms. It is a broad natural scienc...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Biology"
+    ]
+  },
+  {
+    "id": "q_085590",
+    "question": "Based on information about Within and Explainable, what can be said about {entity3}?",
+    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+    "source_title": "Explainable artificial intelligence",
+    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_554021",
+    "question": "How did {event1} lead to {event2}?",
+    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "source_title": "Convolutional neural network",
+    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+    ]
+  },
+  {
+    "id": "q_120683",
+    "question": "How did {event1} lead to {event2}?",
+    "answer": "The World Health Organization calls climate change one of the biggest threats to global health in the 21st century",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_1",
+    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
+    "source_title": "Climate change",
+    "source_text_preview": "The World Health Organization calls climate change one of the biggest threats to global health in th...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Climate_change"
+    ]
+  },
+  {
+    "id": "q_265283",
+    "question": "What is the relationship between Congress and College through {entity3}?",
+    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+    "source_title": "History of artificial intelligence",
+    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_438375",
+    "question": "What are the common factors between Allied and Soviet Union in the context of {topic}?",
+    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_700488",
+    "question": "What are the common factors between Unsupervised and Sometimes in the context of {topic}?",
+    "answer": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Unsupervised_learning_0",
+    "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+    "source_title": "Unsupervised learning",
+    "source_text_preview": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Unsupervised_learning"
+    ]
+  },
+  {
+    "id": "q_373062",
+    "question": "How did {event1} lead to {event2}?",
+    "answer": "# Quantum mechanics Quantum mechanics is the fundamental physical theory that describes the behavior of matter and of light; its unusual characteristics typically occur at and below the scale of atoms",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Quantum_mechanics_0",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
+    "source_title": "Quantum mechanics",
+    "source_text_preview": "# Quantum mechanics Quantum mechanics is the fundamental physical theory that describes the behavior...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Quantum_mechanics"
+    ]
+  },
+  {
+    "id": "q_865679",
+    "question": "How did {event1} lead to {event2}?",
+    "answer": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany conquered Norway, Belgium, Luxembourg and the Netherlands",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_1",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_976458",
+    "question": "What is the relationship between Biology Biology and Life through {entity3}?",
+    "answer": "# Biology Biology is the scientific study of life and living organisms",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Biology_0",
+    "source_url": "https://en.wikipedia.org/wiki/Biology",
+    "source_title": "Biology",
+    "source_text_preview": "# Biology Biology is the scientific study of life and living organisms. It is a broad natural scienc...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Biology"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "How did {event1} lead to {event2}?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_700488",
+    "question": "What are the common factors between After and Other in the context of {topic}?",
+    "answer": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Unsupervised_learning_0",
+    "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+    "source_title": "Unsupervised learning",
+    "source_text_preview": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Unsupervised_learning"
+    ]
+  },
+  {
+    "id": "q_265283",
+    "question": "What are the common factors between Dartmouth College and Governments in the context of {topic}?",
+    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+    "source_title": "History of artificial intelligence",
+    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_761176",
+    "question": "Based on information about Google DeepMind and DeepMind, what can be said about {entity3}?",
+    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_554021",
+    "question": "What is the relationship between Some and The through {entity3}?",
+    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "source_title": "Convolutional neural network",
+    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+    ]
+  },
+  {
+    "id": "q_827499",
+    "question": "Based on information about This and RNN, what can be said about {entity3}?",
+    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+    "source_title": "Recurrent neural network",
+    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
+    ]
+  },
+  {
+    "id": "q_862369",
+    "question": "What are the common factors between DeepMind and Google DeepMind in the context of {topic}?",
+    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
+    "source_title": "Artificial intelligence",
+    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_554021",
+    "question": "What is the relationship between For and Vanishing through {entity3}?",
+    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
+    "source_title": "Convolutional neural network",
+    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
+    ]
+  },
+  {
+    "id": "q_438375",
+    "question": "How did {event1} lead to {event2}?",
+    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
+    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+    "source_title": "World War II",
+    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ]
+  },
+  {
+    "id": "q_107142",
+    "question": "How did {event1} lead to {event2}?",
+    "answer": "The modern theory is formulated in various specially developed mathematical formalisms",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Quantum_mechanics_1",
+    "source_url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
+    "source_title": "Quantum mechanics",
+    "source_text_preview": "The modern theory is formulated in various specially developed mathematical formalisms. In one of th...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Quantum_mechanics"
+    ]
+  },
+  {
+    "id": "q_085590",
+    "question": "What are the common factors between XAI and Explainable in the context of {topic}?",
+    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
+    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+    "source_title": "Explainable artificial intelligence",
+    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
+    ]
+  },
+  {
+    "id": "q_827499",
+    "question": "What are the common factors between Recurrent and Nevertheless, RNNs in the context of {topic}?",
+    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
+    "question_type": "multi-hop",
+    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
+    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
+    "source_title": "Recurrent neural network",
+    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
+    "source_urls": [
+      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
+    ]
+  }
+]

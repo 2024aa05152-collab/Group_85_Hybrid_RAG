@@ -1,0 +1,20 @@
+============================================================
+Hybrid RAG System Evaluation Report
+============================================================
+
+Report generated: 2026-01-26T23:17:26.467879
+Total questions evaluated: 20
+Successful answers: 20
+Success rate: 100.0%
+
+Metrics Summary:
+----------------------------------------
+MRR (URL level): 0.4017
+BLEU score: 0.0090
+Context Relevance: 0.0510
+
+Performance Highlights:
+----------------------------------------
+Questions with correct URL found: 11
+High BLEU scores (>0.5): 0
+

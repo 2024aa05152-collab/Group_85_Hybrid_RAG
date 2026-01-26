@@ -20,24 +20,56 @@ class SparseIndexer:
         self.tokenized_chunks = []
 
         # Download NLTK data if needed
+        self._ensure_nltk_data()
+
+    def _ensure_nltk_data(self):
+        """Ensure NLTK data is available"""
         try:
             nltk.data.find('tokenizers/punkt')
         except LookupError:
-            nltk.download('punkt', quiet=True)
+            try:
+                nltk.download('punkt', quiet=True)
+                logger.info("Downloaded NLTK punkt data")
+            except:
+                logger.warning("Could not download punkt, using simple tokenizer")
+
+        # Try to download punkt_tab if needed
+        try:
+            nltk.data.find('tokenizers/punkt_tab/english')
+        except LookupError:
+            try:
+                nltk.download('punkt_tab', quiet=True)
+                logger.info("Downloaded NLTK punkt_tab data")
+            except:
+                logger.warning("Could not download punkt_tab, using simple tokenizer")
 
     def tokenize(self, text: str) -> List[str]:
-        """Tokenize text for BM25"""
-        tokens = word_tokenize(text.lower())
-        # Remove very short tokens and punctuation
-        tokens = [t for t in tokens if len(t) > 2 and t.isalnum()]
-        return tokens
+        """Tokenize text for BM25 with fallback"""
+        try:
+            tokens = word_tokenize(text.lower())
+            # Remove very short tokens and punctuation
+            tokens = [t for t in tokens if len(t) > 2 and t.isalnum()]
+            return tokens
+        except:
+            # Fallback: simple tokenization
+            tokens = text.lower().split()
+            tokens = [t.strip('.,!?;:"\'()[]{}') for t in tokens]
+            tokens = [t for t in tokens if len(t) > 2 and t.isalnum()]
+            return tokens
 
     def build_index(self, chunks: List[Dict[str, Any]]) -> None:
         """Build BM25 index from chunks"""
         self.chunks = chunks
 
         # Tokenize all chunks
-        self.tokenized_chunks = [self.tokenize(chunk["text"]) for chunk in chunks]
+        logger.info("Tokenizing chunks for BM25...")
+        self.tokenized_chunks = []
+
+        for i, chunk in enumerate(chunks):
+            if i % 10 == 0:
+                logger.info(f"Tokenized {i}/{len(chunks)} chunks")
+            tokens = self.tokenize(chunk["text"])
+            self.tokenized_chunks.append(tokens)
 
         # Build BM25 index
         self.bm25 = BM25Okapi(self.tokenized_chunks)

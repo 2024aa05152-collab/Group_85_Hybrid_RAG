@@ -239,10 +239,10 @@ class HybridRAGPipeline:
         logger.info("Loading Wikipedia URLs...")
 
         # Get all URLs
-        urls = self.wikipedia_loader.get_all_urls(regenerate_random=True)
+        urls = self.wikipedia_loader.get_all_urls(regenerate_random=True, test_mode=True)  # Add test_mode=True
 
         logger.info(f"Fetching content for {len(urls)} URLs...")
-        pages = self.wikipedia_loader.fetch_all_contents(urls)
+        pages = self.wikipedia_loader.fetch_all_contents_parallel(urls, max_pages=30)  # Use parallel fetching
 
         logger.info("Cleaning and processing text...")
         cleaned_pages = self.text_cleaner.process_all_pages(pages)
@@ -295,22 +295,36 @@ class HybridRAGPipeline:
         """Step 4: Generate evaluation questions"""
         question_generator = QuestionGenerator()
 
-        if self.file_paths["questions"].exists():
-            logger.info("Loading existing questions...")
-            with open(self.file_paths["questions"], 'r') as f:
-                questions = json.load(f)
-        else:
-            logger.info("Generating new questions...")
-            questions = question_generator.generate_questions_from_chunks(
-                chunks,
-                num_questions=EVALUATION_CONFIG["num_questions"]
-            )
+        questions_path = self.file_paths["questions"]
 
-            # Save questions
-            with open(self.file_paths["questions"], 'w') as f:
-                json.dump(questions, f, indent=2)
+        # Check if questions file exists and is valid
+        if questions_path.exists():
+            try:
+                logger.info("Loading existing questions...")
+                with open(questions_path, 'r') as f:
+                    questions = json.load(f)
 
-        logger.info(f"Loaded {len(questions)} evaluation questions")
+                # Validate loaded questions
+                if isinstance(questions, list) and len(questions) > 0:
+                    logger.info(f"Loaded {len(questions)} existing questions")
+                    return questions
+                else:
+                    logger.warning("Existing questions file is empty or invalid, generating new ones...")
+            except (json.JSONDecodeError, IOError) as e:
+                logger.warning(f"Error loading questions file: {e}, generating new ones...")
+
+        # Generate new questions
+        logger.info("Generating new questions...")
+        questions = question_generator.generate_questions_from_chunks(
+            chunks,
+            num_questions=EVALUATION_CONFIG["num_questions"]
+        )
+
+        # Save questions
+        with open(questions_path, 'w') as f:
+            json.dump(questions, f, indent=2)
+
+        logger.info(f"Generated {len(questions)} new questions")
         return questions
 
     def run_evaluation(self, hybrid_retriever, llm_generator, questions):

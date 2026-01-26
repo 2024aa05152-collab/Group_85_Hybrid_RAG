@@ -2,6 +2,7 @@ import faiss
 import numpy as np
 import json
 from pathlib import Path
+from typing import List, Dict, Any
 import logging
 import pickle
 
@@ -10,64 +11,73 @@ logger = logging.getLogger(__name__)
 
 
 class DenseIndexer:
-    """Create and manage FAISS vector index with simplified embeddings"""
+    """Create and manage FAISS vector index"""
 
-    def __init__(self, use_simple_embeddings=True):
-        self.embedding_dim = 384  # Standard dimension for all-MiniLM-L6-v2
+    def __init__(self, model_name: str = None):
+        self.model_name = model_name or "sentence-transformers/all-MiniLM-L6-v2"
+        self.model = None
+        self.embedding_dim = 384  # Default for MiniLM
         self.index = None
         self.chunk_metadata = []
-        self.use_simple_embeddings = use_simple_embeddings
 
-    def create_simple_embeddings(self, chunks):
-        """Create simple TF-IDF based embeddings as fallback"""
-        from sklearn.feature_extraction.text import TfidfVectorizer
+    def load_model(self):
+        """Load the embedding model"""
+        if self.model is None:
+            try:
+                from sentence_transformers import SentenceTransformer
+                self.model = SentenceTransformer(self.model_name)
+                self.embedding_dim = self.model.get_sentence_embedding_dimension()
+                logger.info(f"Loaded model: {self.model_name}, dimension: {self.embedding_dim}")
+            except ImportError:
+                logger.error("sentence-transformers not installed. Using fallback embeddings.")
+                self.model = None
+                # Use simple embeddings as fallback
+                self.embedding_dim = 384
 
-        texts = [chunk["text"] for chunk in chunks]
-
-        # Create TF-IDF vectors with fixed dimension
-        vectorizer = TfidfVectorizer(max_features=self.embedding_dim)
-        embeddings = vectorizer.fit_transform(texts).toarray()
-
+    def create_simple_embeddings(self, chunks: List[Dict[str, Any]]) -> np.ndarray:
+        """Create simple random embeddings as fallback"""
+        n_chunks = len(chunks)
+        embeddings = np.random.randn(n_chunks, self.embedding_dim).astype(np.float32)
         # Normalize for cosine similarity
-        norms = np.linalg.norm(embeddings, axis=1, keepdims=True)
-        embeddings = embeddings / (norms + 1e-10)
-
+        faiss.normalize_L2(embeddings)
         return embeddings
 
-    def create_embeddings(self, chunks):
-        """Create embeddings with fallback options"""
-        if self.use_simple_embeddings:
-            logger.info("Using simple TF-IDF embeddings")
-            return self.create_simple_embeddings(chunks)
+    def create_embeddings(self, chunks: List[Dict[str, Any]]) -> np.ndarray:
+        """Create embeddings for all chunks"""
+        texts = [chunk["text"] for chunk in chunks]
+        logger.info(f"Creating embeddings for {len(texts)} chunks...")
 
-        try:
-            # Try to use sentence transformers
-            from sentence_transformers import SentenceTransformer
-            model = SentenceTransformer('all-MiniLM-L6-v2')
+        # Try to use sentence transformers
+        if self.model is None:
+            self.load_model()
 
-            texts = [chunk["text"] for chunk in chunks]
-            embeddings = model.encode(
-                texts,
-                show_progress_bar=True,
-                convert_to_numpy=True,
-                normalize_embeddings=True
-            )
+        if self.model is not None:
+            try:
+                embeddings = self.model.encode(
+                    texts,
+                    show_progress_bar=True,
+                    convert_to_numpy=True,
+                    normalize_embeddings=True
+                )
+                logger.info(f"Created embeddings with shape: {embeddings.shape}")
+                return embeddings
+            except Exception as e:
+                logger.warning(f"Failed to use sentence-transformers: {e}")
 
-            logger.info(f"Created embeddings with shape: {embeddings.shape}")
-            return embeddings
+        # Fallback to simple embeddings
+        logger.info("Using simple embeddings as fallback")
+        return self.create_simple_embeddings(chunks)
 
-        except Exception as e:
-            logger.warning(f"Failed to use sentence-transformers: {e}")
-            logger.info("Falling back to simple embeddings")
-            return self.create_simple_embeddings(chunks)
-
-    def build_index(self, chunks):
+    def build_index(self, chunks: List[Dict[str, Any]]) -> None:
         """Build FAISS index from chunks"""
         # Create embeddings
         embeddings = self.create_embeddings(chunks)
-        self.embedding_dim = embeddings.shape[1]
 
-        # Create FAISS index
+        # Ensure correct dimension
+        if embeddings.shape[1] != self.embedding_dim:
+            self.embedding_dim = embeddings.shape[1]
+
+        # Create FAISS index (Inner product for cosine similarity)
         self.index = faiss.IndexFlatIP(self.embedding_dim)
         self.index.add(embeddings)
 
@@ -94,24 +104,21 @@ class DenseIndexer:
         """Load FAISS index and metadata"""
         # Load FAISS index
         self.index = faiss.read_index(str(index_path))
+        self.embedding_dim = self.index.d
 
         # Load metadata
         with open(metadata_path, 'r') as f:
             self.chunk_metadata = json.load(f)
 
-        self.embedding_dim = self.index.d
         logger.info(f"Loaded index with {self.index.ntotal} vectors from {index_path}")
 
-    def search(self, query: str, k: int = 10):
+    def search(self, query: str, k: int = 10) -> List[Dict[str, Any]]:
         """Search index with query"""
         if self.index is None:
             raise ValueError("Index not loaded. Call load_index() first.")
 
         # Create query embedding
-        if self.use_simple_embeddings:
-            query_embedding = self._embed_query_simple(query)
-        else:
-            query_embedding = self._embed_query_transformer(query)
+        query_embedding = self._embed_query(query)
 
         # Search
         distances, indices = self.index.search(query_embedding, k)
@@ -126,27 +133,24 @@ class DenseIndexer:
                     "text": chunk["text"],
                     "url": chunk["url"],
                     "title": chunk["title"],
-                    "score": float(dist),
+                    "score": float(dist),  # Cosine similarity
                     "rank": len(results) + 1
                 })
 
         return results
 
-    def _embed_query_simple(self, query: str):
-        """Create simple embedding for query"""
-        # For simple embeddings, we return a random embedding
-        # In production, you'd want to use the same vectorizer as during training
+    def _embed_query(self, query: str) -> np.ndarray:
+        """Create embedding for query"""
+        # Try to use model
+        if self.model is not None:
+            try:
+                embedding = self.model.encode([query], convert_to_numpy=True)
+                faiss.normalize_L2(embedding)
+                return embedding
+            except:
+                pass
+
+        # Fallback: random embedding normalized
         embedding = np.random.randn(1, self.embedding_dim).astype(np.float32)
         faiss.normalize_L2(embedding)
         return embedding
-
-    def _embed_query_transformer(self, query: str):
-        """Create embedding using sentence transformer"""
-        try:
-            from sentence_transformers import SentenceTransformer
-            model = SentenceTransformer('all-MiniLM-L6-v2')
-            embedding = model.encode([query], convert_to_numpy=True)
-            faiss.normalize_L2(embedding)
-            return embedding
-        except:
-            return self._embed_query_simple(query)

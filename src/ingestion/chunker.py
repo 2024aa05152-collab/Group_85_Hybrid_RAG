@@ -1,83 +1,115 @@
-import tiktoken
 import json
+import re
+from pathlib import Path
 from typing import List, Dict, Any
 import logging
-from pathlib import Path
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
 class TextChunker:
-    """Chunk text into overlapping segments"""
+    """Chunk text into overlapping segments without tiktoken dependency"""
 
     def __init__(self, chunk_size: int = 400, chunk_overlap: int = 50):
-        self.chunk_size = chunk_size
-        self.chunk_overlap = chunk_overlap
-        self.encoder = tiktoken.get_encoding("cl100k_base")  # GPT-4 tokenizer
+        self.chunk_size = chunk_size  # Approximate words
+        self.chunk_overlap = chunk_overlap  # Approximate words
+        self.word_chunk_size = chunk_size * 0.75  # Words per chunk (approx)
+        self.word_overlap = chunk_overlap * 0.75  # Word overlap (approx)
 
-    def count_tokens(self, text: str) -> int:
-        """Count tokens in text"""
-        return len(self.encoder.encode(text))
+    def count_words(self, text: str) -> int:
+        """Count words in text"""
+        return len(text.split())
+
+    def count_tokens_simple(self, text: str) -> int:
+        """Simple token estimation (words * 1.3)"""
+        words = len(text.split())
+        return int(words * 1.3)  # Rough estimate
+
+    def split_into_sentences(self, text: str) -> List[str]:
+        """Simple sentence splitting"""
+        # Split by common sentence endings
+        sentences = re.split(r'(?<=[.!?])\s+', text)
+        # Filter out empty sentences
+        return [s.strip() for s in sentences if s.strip()]
 
     def chunk_text(self, text: str, metadata: Dict[str, Any]) -> List[Dict[str, Any]]:
-        """Split text into chunks with overlap"""
-        tokens = self.encoder.encode(text)
-        chunks = []
+        """Split text into chunks with overlap using sentence boundaries"""
+        sentences = self.split_into_sentences(text)
 
-        start = 0
+        if not sentences:
+            return []
+
+        chunks = []
+        current_chunk = []
+        current_word_count = 0
         chunk_id = 0
 
-        while start < len(tokens):
-            end = min(start + self.chunk_size, len(tokens))
+        i = 0
+        while i < len(sentences):
+            sentence = sentences[i]
+            sentence_word_count = len(sentence.split())
 
-            # Ensure we don't cut in the middle of a word if possible
-            if end < len(tokens):
-                # Try to find a sentence boundary
-                chunk_text = self.encoder.decode(tokens[start:end])
-                last_period = max(chunk_text.rfind('.'),
-                                  chunk_text.rfind('!'),
-                                  chunk_text.rfind('?'))
+            # If adding this sentence would exceed chunk size and we have content
+            if current_word_count + sentence_word_count > self.word_chunk_size and current_chunk:
+                # Create chunk
+                chunk_text = ' '.join(current_chunk)
+                chunks.append(self._create_chunk_data(chunk_text, metadata, chunk_id, len(chunks)))
+                chunk_id += 1
 
-                if last_period > len(chunk_text) * 0.5:  # If period in second half
-                    adjusted_end = start + len(self.encoder.encode(chunk_text[:last_period + 1]))
-                    if adjusted_end > start:  # Ensure we make progress
-                        end = adjusted_end
+                # Start new chunk with overlap
+                overlap_sentences = []
+                overlap_word_count = 0
 
-            chunk_tokens = tokens[start:end]
-            chunk_text = self.encoder.decode(chunk_tokens)
+                # Go backwards to include overlap
+                for j in range(len(current_chunk) - 1, -1, -1):
+                    overlap_sentence = current_chunk[j]
+                    overlap_sentence_words = len(overlap_sentence.split())
 
-            # Create chunk with metadata
-            chunk_data = {
-                "chunk_id": f"{metadata['url']}_{chunk_id}",
-                "text": chunk_text,
-                "token_count": len(chunk_tokens),
-                "start_token": start,
-                "end_token": end,
-                "url": metadata["url"],
-                "title": metadata["title"],
-                "chunk_index": chunk_id,
-                "total_chunks": None  # Will be filled later
-            }
+                    if overlap_word_count + overlap_sentence_words <= self.word_overlap:
+                        overlap_sentences.insert(0, overlap_sentence)
+                        overlap_word_count += overlap_sentence_words
+                    else:
+                        break
 
-            chunks.append(chunk_data)
-            chunk_id += 1
+                current_chunk = overlap_sentences
+                current_word_count = overlap_word_count
+            else:
+                # Add sentence to current chunk
+                current_chunk.append(sentence)
+                current_word_count += sentence_word_count
+                i += 1
 
-            # Move start position with overlap
-            start = end - self.chunk_overlap
-            if start < end - 1:  # Ensure we make progress
-                start = end - 1
+        # Add the last chunk if there's content
+        if current_chunk:
+            chunk_text = ' '.join(current_chunk)
+            chunks.append(self._create_chunk_data(chunk_text, metadata, chunk_id, len(chunks)))
 
         # Add total_chunks to each chunk
+        total = len(chunks)
         for chunk in chunks:
-            chunk["total_chunks"] = len(chunks)
+            chunk["total_chunks"] = total
 
         return chunks
+
+    def _create_chunk_data(self, text: str, metadata: Dict[str, Any],
+                           chunk_index: int, global_index: int) -> Dict[str, Any]:
+        """Create chunk metadata dictionary"""
+        return {
+            "chunk_id": f"{metadata['url']}_{chunk_index}",
+            "text": text,
+            "token_count": self.count_tokens_simple(text),
+            "word_count": len(text.split()),
+            "url": metadata["url"],
+            "title": metadata["title"],
+            "chunk_index": chunk_index,
+            "global_chunk_id": global_index,
+            "total_chunks": None  # Will be filled later
+        }
 
     def process_documents(self, documents: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """Process all documents into chunks"""
         all_chunks = []
-        chunk_counter = 0
 
         for doc in documents:
             chunks = self.chunk_text(doc["cleaned_text"], {
@@ -85,10 +117,11 @@ class TextChunker:
                 "title": doc["title"]
             })
 
-            for chunk in chunks:
-                chunk["global_chunk_id"] = chunk_counter
-                chunk_counter += 1
-                all_chunks.append(chunk)
+            all_chunks.extend(chunks)
+
+        # Update global chunk IDs
+        for i, chunk in enumerate(all_chunks):
+            chunk["global_chunk_id"] = i
 
         logger.info(f"Created {len(all_chunks)} chunks from {len(documents)} documents")
         return all_chunks
