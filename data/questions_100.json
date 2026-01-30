@@ -1,1302 +1,959 @@
 [
-  {
-    "id": "q_438375",
-    "question": "What is the purpose of Soviet?",
-    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_554021",
-    "question": "Who discovered CNNs?",
-    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-    "source_title": "Convolutional neural network",
-    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-    ]
-  },
-  {
-    "id": "q_554021",
-    "question": "What is the purpose of Convolutional?",
-    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-    "source_title": "Convolutional neural network",
-    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-    ]
-  },
-  {
-    "id": "q_761176",
-    "question": "What are the main characteristics of Google DeepMind?",
-    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_438375",
-    "question": "Why is Soviet important?",
-    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_617561",
-    "question": "What is the purpose of Cold War,?",
-    "answer": "With the United States' victory and reunification, slavery was abolished nationally",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_1",
-    "source_url": "https://en.wikipedia.org/wiki/United_States",
-    "source_title": "United States",
-    "source_text_preview": "With the United States' victory and reunification, slavery was abolished nationally. Beginning in th...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/United_States"
-    ]
-  },
-  {
-    "id": "q_725798",
-    "question": "What are the main characteristics of Allied?",
-    "answer": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a global conflict between two coalitions: the Allies and the Axis powers",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_0",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a glob...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_827499",
-    "question": "What are the main characteristics of The?",
-    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
-    "source_title": "Recurrent neural network",
-    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
-    ]
-  },
-  {
-    "id": "q_403813",
-    "question": "How does Soon work?",
-    "answer": "The success was due to the availability of powerful computer hardware, the collection of immense data sets, and the application of solid mathematical methods",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_1",
-    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-    "source_title": "History of artificial intelligence",
-    "source_text_preview": "The success was due to the availability of powerful computer hardware, the collection of immense dat...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_761176",
-    "question": "What is OpenAI, Google?",
-    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "How does Artificial work?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_315279",
-    "question": "What are the main characteristics of Shaped?",
-    "answer": "Shaped by centuries of immigration, the culture of the U.S",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_2",
-    "source_url": "https://en.wikipedia.org/wiki/United_States",
-    "source_title": "United States",
-    "source_text_preview": "Shaped by centuries of immigration, the culture of the U.S. is diverse and globally influential. Mak...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/United_States"
-    ]
-  },
-  {
-    "id": "q_579557",
-    "question": "When was Contention developed?",
-    "answer": "# Artificial general intelligence Artificial general intelligence (AGI) is a hypothetical type of artificial intelligence that would match or surpass human capabilities across virtually all cognitive tasks",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_general_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
-    "source_title": "Artificial general intelligence",
-    "source_text_preview": "# Artificial general intelligence Artificial general intelligence (AGI) is a hypothetical type of ar...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
-    ]
-  },
-  {
-    "id": "q_976458",
-    "question": "How does These work?",
-    "answer": "# Biology Biology is the scientific study of life and living organisms",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Biology_0",
-    "source_url": "https://en.wikipedia.org/wiki/Biology",
-    "source_title": "Biology",
-    "source_text_preview": "# Biology Biology is the scientific study of life and living organisms. It is a broad natural scienc...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Biology"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "Why is Google Search); important?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_686281",
-    "question": "What are the main characteristics of Victory?",
-    "answer": "# United States The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_0",
-    "source_url": "https://en.wikipedia.org/wiki/United_States",
-    "source_title": "United States",
-    "source_text_preview": "# United States The United States of America (USA), also known as the United States (U.S.) or Americ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/United_States"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "How does OpenAI, Google work?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_107142",
-    "question": "Why is The important?",
-    "answer": "The modern theory is formulated in various specially developed mathematical formalisms",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Quantum_mechanics_1",
-    "source_url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
-    "source_title": "Quantum mechanics",
-    "source_text_preview": "The modern theory is formulated in various specially developed mathematical formalisms. In one of th...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Quantum_mechanics"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "What are the main characteristics of OpenAI, Google?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_097495",
-    "question": "What are the main characteristics of Human?",
-    "answer": "# Climate change Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_0",
-    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
-    "source_title": "Climate change",
-    "source_text_preview": "# Climate change Present-day climate change includes both global warming—the ongoing increase in glo...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Climate_change"
-    ]
-  },
-  {
-    "id": "q_827499",
-    "question": "How does RNNs work?",
-    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
-    "source_title": "Recurrent neural network",
-    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "How does Google Assistant, work?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_403813",
-    "question": "Who established These?",
-    "answer": "The success was due to the availability of powerful computer hardware, the collection of immense data sets, and the application of solid mathematical methods",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_1",
-    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-    "source_title": "History of artificial intelligence",
-    "source_text_preview": "The success was due to the availability of powerful computer hardware, the collection of immense dat...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_865679",
-    "question": "When was North Africa built?",
-    "answer": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany conquered Norway, Belgium, Luxembourg and the Netherlands",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_1",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_438375",
-    "question": "How does Soviet Union work?",
-    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
-    "question_type": "factual",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_761176",
-    "question": "How does Artificial differ from This in terms of cost?",
-    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_450082",
-    "question": "Compare Convolutional with The.",
-    "answer": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer is connected to all neurons in the next layer",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_1",
-    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-    "source_title": "Convolutional neural network",
-    "source_text_preview": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-    ]
-  },
-  {
-    "id": "q_265283",
-    "question": "What are the differences between Dartmouth College and Governments?",
-    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-    "source_title": "History of artificial intelligence",
-    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_356609",
-    "question": "What are the differences between The and Chemistry Chemistry?",
-    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
-    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
-    "source_title": "Chemistry",
-    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Chemistry"
-    ]
-  },
-  {
-    "id": "q_700488",
-    "question": "Compare Common Crawl) with For.",
-    "answer": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Unsupervised_learning_0",
-    "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
-    "source_title": "Unsupervised learning",
-    "source_text_preview": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Unsupervised_learning"
-    ]
-  },
-  {
-    "id": "q_450082",
-    "question": "What advantages does The have over Convolutional?",
-    "answer": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer is connected to all neurons in the next layer",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_1",
-    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-    "source_title": "Convolutional neural network",
-    "source_text_preview": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-    ]
-  },
-  {
-    "id": "q_865679",
-    "question": "What are the differences between Belgium, Luxembourg and Harbor?",
-    "answer": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany conquered Norway, Belgium, Luxembourg and the Netherlands",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_1",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_554021",
-    "question": "Compare Vanishing with For.",
-    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-    "source_title": "Convolutional neural network",
-    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-    ]
-  },
-  {
-    "id": "q_085590",
-    "question": "What advantages does Even have over The?",
-    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
-    "source_title": "Explainable artificial intelligence",
-    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_761176",
-    "question": "How is OpenAI, Google similar to Some?",
-    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_438375",
-    "question": "Compare Africa with The.",
-    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_373062",
-    "question": "What advantages does Niels Bohr, have over Schrödinger, Werner?",
-    "answer": "# Quantum mechanics Quantum mechanics is the fundamental physical theory that describes the behavior of matter and of light; its unusual characteristics typically occur at and below the scale of atoms",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Quantum_mechanics_0",
-    "source_url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
-    "source_title": "Quantum mechanics",
-    "source_text_preview": "# Quantum mechanics Quantum mechanics is the fundamental physical theory that describes the behavior...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Quantum_mechanics"
-    ]
-  },
-  {
-    "id": "q_265283",
-    "question": "How is Governments similar to Seven?",
-    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-    "source_title": "History of artificial intelligence",
-    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_356609",
-    "question": "How is Chemistry similar to DNA?",
-    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
-    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
-    "source_title": "Chemistry",
-    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Chemistry"
-    ]
-  },
-  {
-    "id": "q_827499",
-    "question": "How is RNN similar to Recurrent?",
-    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
-    "source_title": "Recurrent neural network",
-    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
-    ]
-  },
-  {
-    "id": "q_085590",
-    "question": "What advantages does The have over Even?",
-    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
-    "source_title": "Explainable artificial intelligence",
-    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_085590",
-    "question": "Compare The with This.",
-    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
-    "source_title": "Explainable artificial intelligence",
-    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_356609",
-    "question": "Compare Chemistry with Chemistry Chemistry.",
-    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
-    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
-    "source_title": "Chemistry",
-    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Chemistry"
-    ]
-  },
-  {
-    "id": "q_700488",
-    "question": "How does Boltzmann differ from There in terms of performance?",
-    "answer": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Unsupervised_learning_0",
-    "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
-    "source_title": "Unsupervised learning",
-    "source_text_preview": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Unsupervised_learning"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "Compare YouTube, Amazon, with Google Search);.",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_085590",
-    "question": "What advantages does Explainable have over This?",
-    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
-    "source_title": "Explainable artificial intelligence",
-    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_865679",
-    "question": "What are the differences between States and Pearl Harbor?",
-    "answer": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany conquered Norway, Belgium, Luxembourg and the Netherlands",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_1",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_827499",
-    "question": "What are the differences between This and The?",
-    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
-    "source_title": "Recurrent neural network",
-    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
-    ]
-  },
-  {
-    "id": "q_700488",
-    "question": "What advantages does Unsupervised have over Other?",
-    "answer": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Unsupervised_learning_0",
-    "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
-    "source_title": "Unsupervised learning",
-    "source_text_preview": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Unsupervised_learning"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "How is Google Search); similar to Various?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "comparative",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_725798",
-    "question": "What conclusions can be drawn about Axis?",
-    "answer": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a global conflict between two coalitions: the Allies and the Axis powers",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_0",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a glob...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_097495",
-    "question": "If {condition}, what would happen to World Health?",
-    "answer": "# Climate change Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_0",
-    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
-    "source_title": "Climate change",
-    "source_text_preview": "# Climate change Present-day climate change includes both global warming—the ongoing increase in glo...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Climate_change"
-    ]
-  },
-  {
-    "id": "q_356609",
-    "question": "What conclusions can be drawn about DNA?",
-    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
-    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
-    "source_title": "Chemistry",
-    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Chemistry"
-    ]
-  },
-  {
-    "id": "q_579557",
-    "question": "What conclusions can be drawn about Beyond AGI,?",
-    "answer": "# Artificial general intelligence Artificial general intelligence (AGI) is a hypothetical type of artificial intelligence that would match or surpass human capabilities across virtually all cognitive tasks",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_general_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_general_intelligence",
-    "source_title": "Artificial general intelligence",
-    "source_text_preview": "# Artificial general intelligence Artificial general intelligence (AGI) is a hypothetical type of ar...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
-    ]
-  },
-  {
-    "id": "q_976458",
-    "question": "If {condition}, what would happen to Earth?",
-    "answer": "# Biology Biology is the scientific study of life and living organisms",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Biology_0",
-    "source_url": "https://en.wikipedia.org/wiki/Biology",
-    "source_title": "Biology",
-    "source_text_preview": "# Biology Biology is the scientific study of life and living organisms. It is a broad natural scienc...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Biology"
-    ]
-  },
-  {
-    "id": "q_686281",
-    "question": "How might Southern Colonies' affect {other_entity}?",
-    "answer": "# United States The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_0",
-    "source_url": "https://en.wikipedia.org/wiki/United_States",
-    "source_title": "United States",
-    "source_text_preview": "# United States The United States of America (USA), also known as the United States (U.S.) or Americ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/United_States"
-    ]
-  },
-  {
-    "id": "q_761176",
-    "question": "How might Artificial affect {other_entity}?",
-    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_097495",
-    "question": "If {condition}, what would happen to Industrial Revolution?",
-    "answer": "# Climate change Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_0",
-    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
-    "source_title": "Climate change",
-    "source_text_preview": "# Climate change Present-day climate change includes both global warming—the ongoing increase in glo...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Climate_change"
-    ]
-  },
-  {
-    "id": "q_686281",
-    "question": "What conclusions can be drawn about Civil War?",
-    "answer": "# United States The United States of America (USA), also known as the United States (U.S.) or America, is a country primarily located in North America",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_0",
-    "source_url": "https://en.wikipedia.org/wiki/United_States",
-    "source_title": "United States",
-    "source_text_preview": "# United States The United States of America (USA), also known as the United States (U.S.) or Americ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/United_States"
-    ]
-  },
-  {
-    "id": "q_438375",
-    "question": "Based on the information, what can be inferred about September?",
-    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_450082",
-    "question": "How might The affect {other_entity}?",
-    "answer": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer is connected to all neurons in the next layer",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_1",
-    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-    "source_title": "Convolutional neural network",
-    "source_text_preview": "Feedforward neural networks are usually fully connected networks, that is, each neuron in one layer ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-    ]
-  },
-  {
-    "id": "q_311905",
-    "question": "Based on the information, what can be inferred about Physics?",
-    "answer": "# Physics Physics is the scientific study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Physics_0",
-    "source_url": "https://en.wikipedia.org/wiki/Physics",
-    "source_title": "Physics",
-    "source_text_preview": "# Physics Physics is the scientific study of matter, its fundamental constituents, its motion and be...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Physics"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "If {condition}, what would happen to DeepMind?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_761176",
-    "question": "What conclusions can be drawn about Ethical?",
-    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_265283",
-    "question": "If {condition}, what would happen to British Governments?",
-    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-    "source_title": "History of artificial intelligence",
-    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_120683",
-    "question": "What conclusions can be drawn about These?",
-    "answer": "The World Health Organization calls climate change one of the biggest threats to global health in the 21st century",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_1",
-    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
-    "source_title": "Climate change",
-    "source_text_preview": "The World Health Organization calls climate change one of the biggest threats to global health in th...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Climate_change"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "If {condition}, what would happen to Various?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_356609",
-    "question": "What conclusions can be drawn about Moon?",
-    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
-    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
-    "source_title": "Chemistry",
-    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Chemistry"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "If {condition}, what would happen to Google Assistant,?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "How might DeepMind affect {other_entity}?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_120683",
-    "question": "If {condition}, what would happen to There?",
-    "answer": "The World Health Organization calls climate change one of the biggest threats to global health in the 21st century",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_1",
-    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
-    "source_title": "Climate change",
-    "source_text_preview": "The World Health Organization calls climate change one of the biggest threats to global health in th...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Climate_change"
-    ]
-  },
-  {
-    "id": "q_617561",
-    "question": "How might Enlightenment affect {other_entity}?",
-    "answer": "With the United States' victory and reunification, slavery was abolished nationally",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_1",
-    "source_url": "https://en.wikipedia.org/wiki/United_States",
-    "source_title": "United States",
-    "source_text_preview": "With the United States' victory and reunification, slavery was abolished nationally. Beginning in th...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/United_States"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "What conclusions can be drawn about Some?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_265283",
-    "question": "Based on the information, what can be inferred about Congress?",
-    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-    "source_title": "History of artificial intelligence",
-    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_097495",
-    "question": "How might Human affect {other_entity}?",
-    "answer": "# Climate change Present-day climate change includes both global warming—the ongoing increase in global average temperature—and its wider effects on Earth's climate system",
-    "question_type": "inferential",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_0",
-    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
-    "source_title": "Climate change",
-    "source_text_preview": "# Climate change Present-day climate change includes both global warming—the ongoing increase in glo...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Climate_change"
-    ]
-  },
-  {
-    "id": "q_356609",
-    "question": "What is the relationship between Chemistry Chemistry and The through {entity3}?",
-    "answer": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Chemistry_0",
-    "source_url": "https://en.wikipedia.org/wiki/Chemistry",
-    "source_title": "Chemistry",
-    "source_text_preview": "# Chemistry Chemistry is the scientific study of the properties and behavior of matter. It is a phys...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Chemistry"
-    ]
-  },
-  {
-    "id": "q_725798",
-    "question": "What are the common factors between Poland and Korea in the context of {topic}?",
-    "answer": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a global conflict between two coalitions: the Allies and the Axis powers",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_0",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "# World War II World War II or the Second World War (1 September 1939 – 2 September 1945) was a glob...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_315279",
-    "question": "What is the relationship between Making and Shaped through {entity3}?",
-    "answer": "Shaped by centuries of immigration, the culture of the U.S",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/United_States_2",
-    "source_url": "https://en.wikipedia.org/wiki/United_States",
-    "source_title": "United States",
-    "source_text_preview": "Shaped by centuries of immigration, the culture of the U.S. is diverse and globally influential. Mak...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/United_States"
-    ]
-  },
-  {
-    "id": "q_976458",
-    "question": "How did {event1} lead to {event2}?",
-    "answer": "# Biology Biology is the scientific study of life and living organisms",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Biology_0",
-    "source_url": "https://en.wikipedia.org/wiki/Biology",
-    "source_title": "Biology",
-    "source_text_preview": "# Biology Biology is the scientific study of life and living organisms. It is a broad natural scienc...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Biology"
-    ]
-  },
-  {
-    "id": "q_085590",
-    "question": "Based on information about Within and Explainable, what can be said about {entity3}?",
-    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
-    "source_title": "Explainable artificial intelligence",
-    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_554021",
-    "question": "How did {event1} lead to {event2}?",
-    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-    "source_title": "Convolutional neural network",
-    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-    ]
-  },
-  {
-    "id": "q_120683",
-    "question": "How did {event1} lead to {event2}?",
-    "answer": "The World Health Organization calls climate change one of the biggest threats to global health in the 21st century",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Climate_change_1",
-    "source_url": "https://en.wikipedia.org/wiki/Climate_change",
-    "source_title": "Climate change",
-    "source_text_preview": "The World Health Organization calls climate change one of the biggest threats to global health in th...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Climate_change"
-    ]
-  },
-  {
-    "id": "q_265283",
-    "question": "What is the relationship between Congress and College through {entity3}?",
-    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-    "source_title": "History of artificial intelligence",
-    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_438375",
-    "question": "What are the common factors between Allied and Soviet Union in the context of {topic}?",
-    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_700488",
-    "question": "What are the common factors between Unsupervised and Sometimes in the context of {topic}?",
-    "answer": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Unsupervised_learning_0",
-    "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
-    "source_title": "Unsupervised learning",
-    "source_text_preview": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Unsupervised_learning"
-    ]
-  },
-  {
-    "id": "q_373062",
-    "question": "How did {event1} lead to {event2}?",
-    "answer": "# Quantum mechanics Quantum mechanics is the fundamental physical theory that describes the behavior of matter and of light; its unusual characteristics typically occur at and below the scale of atoms",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Quantum_mechanics_0",
-    "source_url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
-    "source_title": "Quantum mechanics",
-    "source_text_preview": "# Quantum mechanics Quantum mechanics is the fundamental physical theory that describes the behavior...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Quantum_mechanics"
-    ]
-  },
-  {
-    "id": "q_865679",
-    "question": "How did {event1} lead to {event2}?",
-    "answer": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany conquered Norway, Belgium, Luxembourg and the Netherlands",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_1",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "In 1940, the Soviet Union annexed the Baltic states and parts of Finland and Romania, while Germany ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_976458",
-    "question": "What is the relationship between Biology Biology and Life through {entity3}?",
-    "answer": "# Biology Biology is the scientific study of life and living organisms",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Biology_0",
-    "source_url": "https://en.wikipedia.org/wiki/Biology",
-    "source_title": "Biology",
-    "source_text_preview": "# Biology Biology is the scientific study of life and living organisms. It is a broad natural scienc...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Biology"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "How did {event1} lead to {event2}?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_700488",
-    "question": "What are the common factors between After and Other in the context of {topic}?",
-    "answer": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Unsupervised_learning_0",
-    "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
-    "source_title": "Unsupervised learning",
-    "source_text_preview": "# Unsupervised learning Unsupervised learning is a framework in machine learning where, in contrast ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Unsupervised_learning"
-    ]
-  },
-  {
-    "id": "q_265283",
-    "question": "What are the common factors between Dartmouth College and Governments in the context of {topic}?",
-    "answer": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity, with myths, stories, and rumors of artificial beings endowed with intelligence or consciousness by master craftsmen",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
-    "source_title": "History of artificial intelligence",
-    "source_text_preview": "# History of artificial intelligence The history of artificial intelligence (AI) began in antiquity,...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_761176",
-    "question": "Based on information about Google DeepMind and DeepMind, what can be said about {entity3}?",
-    "answer": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intelligence (AGI) – AI that can complete virtually any cognitive task at least as well as a human",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_1",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "Some companies, such as OpenAI, Google DeepMind and Meta, aim to create artificial general intellige...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_554021",
-    "question": "What is the relationship between Some and The through {entity3}?",
-    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-    "source_title": "Convolutional neural network",
-    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-    ]
-  },
-  {
-    "id": "q_827499",
-    "question": "Based on information about This and RNN, what can be said about {entity3}?",
-    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
-    "source_title": "Recurrent neural network",
-    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
-    ]
-  },
-  {
-    "id": "q_862369",
-    "question": "What are the common factors between DeepMind and Google DeepMind in the context of {topic}?",
-    "answer": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Artificial_intelligence",
-    "source_title": "Artificial intelligence",
-    "source_text_preview": "# Artificial intelligence Artificial intelligence (AI) is the capability of computational systems to...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_554021",
-    "question": "What is the relationship between For and Vanishing through {entity3}?",
-    "answer": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural network that learns features via filter (or kernel) optimization",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Convolutional_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Convolutional_neural_network",
-    "source_title": "Convolutional neural network",
-    "source_text_preview": "# Convolutional neural network A convolutional neural network (CNN) is a type of feedforward neural ...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Convolutional_neural_network"
-    ]
-  },
-  {
-    "id": "q_438375",
-    "question": "How did {event1} lead to {event2}?",
-    "answer": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of Germany by the Allies which culminated in the fall of Berlin to Soviet troops, and Germany's unconditional surrender on 8 May 1945",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/World_War_II_2",
-    "source_url": "https://en.wikipedia.org/wiki/World_War_II",
-    "source_title": "World War II",
-    "source_text_preview": "The war in Europe concluded with the liberation of German-occupied territories and the invasion of G...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/World_War_II"
-    ]
-  },
-  {
-    "id": "q_107142",
-    "question": "How did {event1} lead to {event2}?",
-    "answer": "The modern theory is formulated in various specially developed mathematical formalisms",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Quantum_mechanics_1",
-    "source_url": "https://en.wikipedia.org/wiki/Quantum_mechanics",
-    "source_title": "Quantum mechanics",
-    "source_text_preview": "The modern theory is formulated in various specially developed mathematical formalisms. In one of th...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Quantum_mechanics"
-    ]
-  },
-  {
-    "id": "q_085590",
-    "question": "What are the common factors between XAI and Explainable in the context of {topic}?",
-    "answer": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence_0",
-    "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
-    "source_title": "Explainable artificial intelligence",
-    "source_text_preview": "# Explainable artificial intelligence Within artificial intelligence (AI), explainable AI (XAI), gen...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
-    ]
-  },
-  {
-    "id": "q_827499",
-    "question": "What are the common factors between Recurrent and Nevertheless, RNNs in the context of {topic}?",
-    "answer": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are designed for processing sequential data, such as text, speech, and time series, where the order of elements is important",
-    "question_type": "multi-hop",
-    "source_chunk_id": "https://en.wikipedia.org/wiki/Recurrent_neural_network_0",
-    "source_url": "https://en.wikipedia.org/wiki/Recurrent_neural_network",
-    "source_title": "Recurrent neural network",
-    "source_text_preview": "# Recurrent neural network In artificial neural networks, recurrent neural networks (RNNs) are desig...",
-    "source_urls": [
-      "https://en.wikipedia.org/wiki/Recurrent_neural_network"
-    ]
-  }
+    {
+        "id": "q_9099e6",
+        "question": "When was the International Organization journal established?",
+        "answer": "1947",
+        "question_type": "factual",
+        "source_chunk_id": "9deb3929",
+        "source_url": "https://en.wikipedia.org/wiki/International_Organization_(journal)",
+        "source_title": "International Organization (journal)",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/International_Organization_(journal)"
+        ]
+    },
+    {
+        "id": "q_88b3fe",
+        "question": "What is the estimated annual investment needed for the European Union to meet its Fit-for-55 decarbonisation goals?",
+        "answer": "€477 million",
+        "question_type": "factual",
+        "source_chunk_id": "7ac7bf4b",
+        "source_url": "https://en.wikipedia.org/wiki/Climate_change_mitigation",
+        "source_title": "Climate change mitigation",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Climate_change_mitigation"
+        ]
+    },
+    {
+        "id": "q_34bf54",
+        "question": "What other rugby union match is likely to have a record attendance in Europe?",
+        "answer": "This answer may be inferred based on the historical context of the 1975 Five Nations Championship and the potential for increased stadium sizes and capacities over time.",
+        "question_type": "inferential",
+        "source_chunk_id": "d1d1c686",
+        "source_url": "https://en.wikipedia.org/wiki/Rugby_union",
+        "source_title": "Rugby union",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Rugby_union"
+        ]
+    },
+    {
+        "id": "q_b9467d",
+        "question": "What is the relationship between the growth of women's football and the improvement of football rules in the game?",
+        "answer": "Women's football has been improving due to the growth of the women's game, which has led to changes in the Laws of the Game, ultimately benefiting the sport as a whole.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "bcb8a02f",
+        "source_url": "https://en.wikipedia.org/wiki/Association_football",
+        "source_title": "Association football",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Association_football",
+            "https://en.wikipedia.org/wiki/Association_football"
+        ]
+    },
+    {
+        "id": "q_75cd31",
+        "question": "What primary process changed or removed biomass from a community, such as a fire, flood, drought, or predation?",
+        "answer": "Disturbance",
+        "question_type": "factual",
+        "source_chunk_id": "020595b3",
+        "source_url": "https://en.wikipedia.org/wiki/Ecology",
+        "source_title": "Ecology",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Ecology"
+        ]
+    },
+    {
+        "id": "q_102c01",
+        "question": "Who worked with Stanley Cohen to isolate nerve growth factor, and what was the result compared to Cohen's later work?",
+        "answer": "Rita Levi-Montalcini, with whom Cohen isolated nerve growth factor, compared to Cohen isolating epidermal growth factor later on.",
+        "question_type": "comparative",
+        "source_chunk_id": "b62fcd92",
+        "source_url": "https://en.wikipedia.org/wiki/Stanley_Cohen_(biochemist)",
+        "source_title": "Stanley Cohen (biochemist)",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Stanley_Cohen_(biochemist)"
+        ]
+    },
+    {
+        "id": "q_800c07",
+        "question": "Does the economic impact of the Commonwealth Games offset the costs incurred by governments?",
+        "answer": "Based on the analysis by PricewaterhouseCoopers, it appears that the economic impact of the Commonwealth Games does offset the costs incurred by governments, as each dollar spent generated an average of $2 for the host city or state economies.",
+        "question_type": "inferential",
+        "source_chunk_id": "c3a2d967",
+        "source_url": "https://en.wikipedia.org/wiki/Commonwealth_Games",
+        "source_title": "Commonwealth Games",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Commonwealth_Games"
+        ]
+    },
+    {
+        "id": "q_e33bd6",
+        "question": "In what year was the first Winter Olympic Games held in Chamonix, France?",
+        "answer": "1924",
+        "question_type": "factual",
+        "source_chunk_id": "9eb16c95",
+        "source_url": "https://en.wikipedia.org/wiki/Olympic_Games",
+        "source_title": "Olympic Games",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Olympic_Games"
+        ]
+    },
+    {
+        "id": "q_c85803",
+        "question": "Can we infer that Santorio's observations of 'insensible perspiration' were a crucial step in understanding the concept of metabolism?",
+        "answer": "open",
+        "question_type": "inferential",
+        "source_chunk_id": "96fd2afc",
+        "source_url": "https://en.wikipedia.org/wiki/Metabolism",
+        "source_title": "Metabolism",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Metabolism"
+        ]
+    },
+    {
+        "id": "q_ae3afa",
+        "question": "What was the result of the Bolsheviks' attempt to form a government with the Left Socialist Revolutionaries, and how did this impact the development of the Soviet Union's ideology?",
+        "answer": "The Bolsheviks' attempt to form a government with the Left Socialist Revolutionaries was unsuccessful, and this led to the banning of all political opposition, marking the start of communist authoritarianism in the Soviet Union.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "679f36ed",
+        "source_url": "https://en.wikipedia.org/wiki/Russian_Revolution",
+        "source_title": "Russian Revolution",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Russian_Revolution",
+            "https://en.wikipedia.org/wiki/Russian_Revolution"
+        ]
+    },
+    {
+        "id": "q_59243f",
+        "question": "Who, along with Dean Edmonds, built the first neural net machine, the SNARC, in 1951?",
+        "answer": "Marvin Minsky",
+        "question_type": "factual",
+        "source_chunk_id": "de922532",
+        "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence",
+        "source_title": "History of artificial intelligence",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+        ]
+    },
+    {
+        "id": "q_80bacc",
+        "question": "How does the location of the norepinephrine receptor compare to Loewi's finding of the acetylcholine receptor?",
+        "answer": "Norepinephrine's target receptor was on the cell membrane, whereas Loewi found the acetylcholine receptor was located intracellularly.",
+        "question_type": "comparative",
+        "source_chunk_id": "3b1f95a3",
+        "source_url": "https://en.wikipedia.org/wiki/Endocrinology",
+        "source_title": "Endocrinology",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Endocrinology"
+        ]
+    },
+    {
+        "id": "q_fcf169",
+        "question": "When did Japan surrender, ending the war?",
+        "answer": "15 August 1945",
+        "question_type": "factual",
+        "source_chunk_id": "aca629df",
+        "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+        "source_title": "World War II",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/World_War_II"
+        ]
+    },
+    {
+        "id": "q_248683",
+        "question": "Which basketball league in Australia had a longer initial seasons format, the NBL or the Women's National Basketball League?",
+        "answer": "The NBL had a longer initial seasons format, running from 1979 to 1998, while the Women's National Basketball League began in 1981.",
+        "question_type": "comparative",
+        "source_chunk_id": "63ce56b2",
+        "source_url": "https://en.wikipedia.org/wiki/Basketball",
+        "source_title": "Basketball",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Basketball"
+        ]
+    },
+    {
+        "id": "q_f6af41",
+        "question": "Did the geography of alpine Switzerland contribute to the adoption of republican forms of government in the region?",
+        "answer": "Not explicitly stated",
+        "question_type": "inferential",
+        "source_chunk_id": "0c87b5f8",
+        "source_url": "https://en.wikipedia.org/wiki/Republic",
+        "source_title": "Republic",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Republic"
+        ]
+    },
+    {
+        "id": "q_e4ceda",
+        "question": "Claude Bernard's concept of milieu interieur was later championed by which American physiologist in 1929, and what was its core meaning?",
+        "answer": "Walter B. Cannon, the maintenance of steady states in the body and the physiological processes through which they are regulated.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "589aa63a",
+        "source_url": "https://en.wikipedia.org/wiki/Physiology",
+        "source_title": "Physiology",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Physiology",
+            "https://en.wikipedia.org/wiki/Physiology"
+        ]
+    },
+    {
+        "id": "q_5c097e",
+        "question": "What percentage of the time were risk assessment scores found to be inaccurate by an independent investigation by ProPublica?",
+        "answer": "80%",
+        "question_type": "factual",
+        "source_chunk_id": "6486c5dc",
+        "source_url": "https://en.wikipedia.org/wiki/Algorithmic_bias",
+        "source_title": "Algorithmic bias",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Algorithmic_bias"
+        ]
+    },
+    {
+        "id": "q_a15d46",
+        "question": "In what year did West Germany join the Western European Union (WEU) and NATO, prompting the Soviet Union to form the Warsaw Pact?",
+        "answer": "1955",
+        "question_type": "multi-hop",
+        "source_chunk_id": "ba2d4a7a",
+        "source_url": "https://en.wikipedia.org/wiki/European_Union",
+        "source_title": "European Union",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/European_Union",
+            "https://en.wikipedia.org/wiki/European_Union"
+        ]
+    },
+    {
+        "id": "q_a48916",
+        "question": "In what year was Sir Francis Blake of Cogges granted the Ford Castle estate?",
+        "answer": "1660s",
+        "question_type": "factual",
+        "source_chunk_id": "51ef4514",
+        "source_url": "https://en.wikipedia.org/wiki/Ford_Castle",
+        "source_title": "Ford Castle",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Ford_Castle"
+        ]
+    },
+    {
+        "id": "q_c4ca8b",
+        "question": "How did the economic policies of Richard Cobden and John Bright compare to those of David Ricardo?",
+        "answer": "Cobden and Bright's policies of lowering tariffs and quotas were similar to Ricardo's advocacy of free trade.",
+        "question_type": "comparative",
+        "source_chunk_id": "24f62841",
+        "source_url": "https://en.wikipedia.org/wiki/Capitalism",
+        "source_title": "Capitalism",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Capitalism"
+        ]
+    },
+    {
+        "id": "q_fda66c",
+        "question": "Does the Congress party's emphasis on secularism and protection of minority rights help to offset the perception that it has compromised on these values in the past, such as the 1984 violence and Rajiv Gandhi's stance on the Ram Janmabhoomi site?",
+        "answer": "",
+        "question_type": "inferential",
+        "source_chunk_id": "88b3805d",
+        "source_url": "https://en.wikipedia.org/wiki/Indian_National_Congress",
+        "source_title": "Indian National Congress",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Indian_National_Congress"
+        ]
+    },
+    {
+        "id": "q_07a81c",
+        "question": "If the entire population adopted a vegan diet, what percentage of globally needed agricultural land would be reduced, and how does this relate to deforestation in tropical and subtropical forests in emerging economies?",
+        "answer": "The amount of globally needed agricultural land would be reduced by three quarters, which could significantly contribute to reducing deforestation in tropical and subtropical forests in emerging economies.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "c494e5e4",
+        "source_url": "https://en.wikipedia.org/wiki/Deforestation",
+        "source_title": "Deforestation",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Deforestation",
+            "https://en.wikipedia.org/wiki/Deforestation"
+        ]
+    },
+    {
+        "id": "q_59ebc5",
+        "question": "What led the Voyages of Christopher Columbus to search for wealth in the Indian subcontinent, and which Indian empire established in the 16th century introduced a standardized currency that is now used in multiple countries?",
+        "answer": "The Muslim conquest in the Indian subcontinent mainly took place from the 12th century onwards, and the Sur Empire of India introduced the standardised rūpya coin in the 16th century.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "659a70a2",
+        "source_url": "https://en.wikipedia.org/wiki/History_of_Asia",
+        "source_title": "History of Asia",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/History_of_Asia",
+            "https://en.wikipedia.org/wiki/History_of_Asia"
+        ]
+    },
+    {
+        "id": "q_de25f0",
+        "question": "Can brain scans alone accurately diagnose a mental illness or tell the risk of getting a mental illness in the future?",
+        "answer": "No",
+        "question_type": "factual",
+        "source_chunk_id": "94c2fd0f",
+        "source_url": "https://en.wikipedia.org/wiki/Psychiatry",
+        "source_title": "Psychiatry",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Psychiatry"
+        ]
+    },
+    {
+        "id": "q_3d3038",
+        "question": "Is the top-down framework of the UNFCCC more effective in addressing climate change than the proposed bottom-up governance approach?",
+        "answer": "This question is still under debate among climate change experts.",
+        "question_type": "comparative",
+        "source_chunk_id": "588d59f4",
+        "source_url": "https://en.wikipedia.org/wiki/Climate_change_mitigation",
+        "source_title": "Climate change mitigation",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Climate_change_mitigation"
+        ]
+    },
+    {
+        "id": "q_28e44f",
+        "question": "Given the decline of Buddhism and the rise of Brahmanical Hinduism in the early medieval period, what was the likely reason for the reduced financial support from trading communities and royal elites?",
+        "answer": "The decline of Buddhism was likely due to a lack of appeal among the rural masses, who instead embraced Brahmanical Hinduism, and dwindling financial support from trading communities and royal elites.",
+        "question_type": "inferential",
+        "source_chunk_id": "3f335f5b",
+        "source_url": "https://en.wikipedia.org/wiki/History_of_India",
+        "source_title": "History of India",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/History_of_India"
+        ]
+    },
+    {
+        "id": "q_6bbd25",
+        "question": "What type of network was introduced by Hinton, and what is the optimal depth for this network as of 2009?",
+        "answer": "Deep Belief Network, 3-4 layers",
+        "question_type": "multi-hop",
+        "source_chunk_id": "c653cff2",
+        "source_url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+        "source_title": "Unsupervised learning",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Unsupervised_learning",
+            "https://en.wikipedia.org/wiki/Unsupervised_learning"
+        ]
+    },
+    {
+        "id": "q_4d338d",
+        "question": "What is the Shapley value in the context of social choice theory?",
+        "answer": "It is a coalitional game that can be explained using an algorithm by Nizri, Azaria and Hazon.",
+        "question_type": "factual",
+        "source_chunk_id": "6bed20d4",
+        "source_url": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
+        "source_title": "Explainable artificial intelligence",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
+        ]
+    },
+    {
+        "id": "q_44a773",
+        "question": "How many civilians died in Southeast Asia due to Japanese forces, and in addition to that, how many Jews were killed in the Holocaust?",
+        "answer": "4 million and 6 million, respectively.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "a5cfb149",
+        "source_url": "https://en.wikipedia.org/wiki/World_War_II",
+        "source_title": "World War II",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/World_War_II",
+            "https://en.wikipedia.org/wiki/World_War_II"
+        ]
+    },
+    {
+        "id": "q_d2abbb",
+        "question": "Who is considered to be the first person to have coined the term 'geopolitics' in English?",
+        "answer": "Emil Reich",
+        "question_type": "factual",
+        "source_chunk_id": "184a81a3",
+        "source_url": "https://en.wikipedia.org/wiki/Geopolitics",
+        "source_title": "Geopolitics",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Geopolitics"
+        ]
+    },
+    {
+        "id": "q_0e86fa",
+        "question": "How does the French Revolution compare to other significant sociopolitical changes in world history?",
+        "answer": "The French Revolution shares similarities with other influential revolutions such as the American Revolution, the Russian Revolution, and the Iranian Revolution in its impact on modern democracy and its radicalization of social and economic change.",
+        "question_type": "comparative",
+        "source_chunk_id": "8883fd5b",
+        "source_url": "https://en.wikipedia.org/wiki/French_Revolution",
+        "source_title": "French Revolution",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/French_Revolution"
+        ]
+    },
+    {
+        "id": "q_3e0d70",
+        "question": "Is Eddy Baker's prolific release of music in 2019 a result of a period of increased creativity or a period of increased time available for music production?",
+        "answer": "Not Provided",
+        "question_type": "inferential",
+        "source_chunk_id": "8744358c",
+        "source_url": "https://en.wikipedia.org/wiki/Eddy_Baker",
+        "source_title": "Eddy Baker",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Eddy_Baker"
+        ]
+    },
+    {
+        "id": "q_a78522",
+        "question": "Which antibiotic has a similar mechanism of action to doxorubicin, an intercalator that inhibits DNA replication and transcription?",
+        "answer": "unomycin",
+        "question_type": "comparative",
+        "source_chunk_id": "15e28838",
+        "source_url": "https://en.wikipedia.org/wiki/DNA",
+        "source_title": "DNA",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/DNA"
+        ]
+    },
+    {
+        "id": "q_cc2c46",
+        "question": "Did the decline of Sweden, the Polish–Lithuanian Commonwealth, and the Ottoman Empire in the 16th and 17th centuries contribute to the rise of new enlightened absolutist monarchies in Central and Eastern Europe?",
+        "answer": "This is a topic of ongoing debate among historians, with some arguing that the decline of these powers created a power vacuum that was filled by new monarchies, while others suggest that the rise of these new monarchies was driven by other factors, such as economic and military developments.",
+        "question_type": "inferential",
+        "source_chunk_id": "b60b5130",
+        "source_url": "https://en.wikipedia.org/wiki/History_of_Europe",
+        "source_title": "History of Europe",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/History_of_Europe"
+        ]
+    },
+    {
+        "id": "q_b78628",
+        "question": "Which technique can be used to introduce mutations to DNA, and what is one of its applications in molecular biology?",
+        "answer": "Polymerase chain reaction (PCR) can be used to introduce mutations to DNA, and one of its applications is the detection of genetic mutations.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "8d2f6b50",
+        "source_url": "https://en.wikipedia.org/wiki/Molecular_biology",
+        "source_title": "Molecular biology",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Molecular_biology",
+            "https://en.wikipedia.org/wiki/Molecular_biology"
+        ]
+    },
+    {
+        "id": "q_e19619",
+        "question": "What is the name of the surgical procedure that was used to cure 'blue babies' with a ventricular septal defect?",
+        "answer": "The Blalock-Taussig Shunt",
+        "question_type": "factual",
+        "source_chunk_id": "70cb940d",
+        "source_url": "https://en.wikipedia.org/wiki/Cardiology",
+        "source_title": "Cardiology",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Cardiology"
+        ]
+    },
+    {
+        "id": "q_a0ef01",
+        "question": "How does the Marinoan glaciation event (650–635 Ma) compare to the final period of worldwide glaciation in the future?",
+        "answer": "The Marinoan glaciation event is the most significant 'snowball Earth' event, global in scope and longer, whereas future ice ages will feature less overall ice coverage of the planet.",
+        "question_type": "comparative",
+        "source_chunk_id": "53abf8ec",
+        "source_url": "https://en.wikipedia.org/wiki/Timeline_of_Earth",
+        "source_title": "Timeline of Earth",
+        "source_urls": [
+            "https://en.wikipedia.org/wiki/Timeline_of_Earth"
+        ]
+    },
+    {
+        "id": "q_f50741",
+        "question": "Which journal editors served the longest term, Keohane, Katzenstein, Krasner, or Lisa Martin?",
+        "answer": "Keohane (1972-1980) and Lisa Martin (2001-2006) are tied for the longest term, but Keohane served the earliest, the others served shorter terms.",
+        "question_type": "comparative",
+        "source_chunk_id": "436bd399",
+        "source_url": "https://en.wikipedia.org/wiki/International_Organization_(journal)"
+    },
+    {
+        "id": "q_8484e1",
+        "question": "What would be the likely outcome if a player is tackled above the shoulder line in a rugby match?",
+        "answer": "It would likely result in a penalty being awarded to the opposing team.",
+        "question_type": "inferential",
+        "source_chunk_id": "a696e481",
+        "source_url": "https://en.wikipedia.org/wiki/Rugby_union"
+    },
+    {
+        "id": "q_264447",
+        "question": "Which governing body of football is responsible for organizing international competitions and enforcing most international regulations, and which organization sets the Laws of the Game?",
+        "answer": "FIFA is responsible for organizing international competitions and enforcing most international regulations, and the IFAB sets the Laws of the Game.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "693a04ba",
+        "source_url": "https://en.wikipedia.org/wiki/Association_football"
+    },
+    {
+        "id": "q_ae8aff",
+        "question": "What is the term for a state's action in relation to other states where it seeks to gain advantage or benefits for itself?",
+        "answer": "National interest",
+        "question_type": "factual",
+        "source_chunk_id": "d96fa307",
+        "source_url": "https://en.wikipedia.org/wiki/International_relations"
+    },
+    {
+        "id": "q_d92ecc",
+        "question": "Compared to running shoes, badminton shoes have what type of lateral support?",
+        "answer": "little lateral support",
+        "question_type": "comparative",
+        "source_chunk_id": "df05d677",
+        "source_url": "https://en.wikipedia.org/wiki/Badminton"
+    },
+    {
+        "id": "q_b7564d",
+        "question": "What led the British to believe the southern colonies were strongly Loyalist?",
+        "answer": "They perceived the southern colonies as having a large population of recent immigrants and large numbers of slaves who might be tempted to run away from their masters to join the British and gain their freedom.",
+        "question_type": "inferential",
+        "source_chunk_id": "af24aa3c",
+        "source_url": "https://en.wikipedia.org/wiki/American_Revolution"
+    },
+    {
+        "id": "q_6d6777",
+        "question": "What is the primary function of antibodies in the immune system, and how does it relate to the process of carbon sequestration through reforestation in tropical climates?",
+        "answer": "Antibodies bind antigens to target them for destruction, whereas reforestation in tropical climates helps to fix more carbon dioxide pollution by allowing trees to grow year-round due to the wet season.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "93750b35",
+        "source_url": "https://en.wikipedia.org/wiki/Protein"
+    },
+    {
+        "id": "q_7a0222",
+        "question": "Which modern state is credited with adopting the first written constitution in 1634, and what was the key figure involved in its creation?",
+        "answer": "The Kingdom of Sweden is credited with adopting the first written constitution in 1634, and the key figure involved in its creation was Axel Oxenstierna, the Lord High Chancellor of Sweden.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "fc740eb4",
+        "source_url": "https://en.wikipedia.org/wiki/Constitution"
+    },
+    {
+        "id": "q_c96bf5",
+        "question": "What are the two key elements that a smart city must have, according to David K. Owens, the former executive vice president of the Edison Electric Institute?",
+        "answer": "An integrated communications platform and a 'dynamic resilient grid'.",
+        "question_type": "factual",
+        "source_chunk_id": "24691e0f",
+        "source_url": "https://en.wikipedia.org/wiki/Smart_city"
+    },
+    {
+        "id": "q_948e93",
+        "question": "How does the TV series 'Skoro na mizině' compare to other TV shows in reflecting critical situations during the COVID-19 pandemic?",
+        "answer": "The TV series 'Skoro na mizině' presents a unique blend of humor and satire, contrasting with more serious or dramatic depictions of the pandemic in other shows.",
+        "question_type": "comparative",
+        "source_chunk_id": "05452106",
+        "source_url": "https://en.wikipedia.org/wiki/Skoro_na_mizin%C4%9B"
+    },
+    {
+        "id": "q_4e3382",
+        "question": "Considering the various approaches in economic geography, can a Marxist political economy perspective and a new economic geography perspective be used together to gain a more comprehensive understanding of spatial phenomena?",
+        "answer": "string",
+        "question_type": "inferential",
+        "source_chunk_id": "16f72be6",
+        "source_url": "https://en.wikipedia.org/wiki/Economic_geography"
+    },
+    {
+        "id": "q_10b7f5",
+        "question": "What contributes to the development of leapfrog development in low-density communities, which in turn affects land use and urban sprawl?",
+        "answer": "The current custom of requiring a developer to provide subdivision infrastructure as a condition of development, and the lack of condemnation power held by private developers.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "33aeac79",
+        "source_url": "https://en.wikipedia.org/wiki/Urban_sprawl"
+    },
+    {
+        "id": "q_b5c4af",
+        "question": "What is the primary reason for food insecurity according to the UN Committee on Economic, Social and Cultural Rights?",
+        "answer": "An inability to access available food, usually due to poverty.",
+        "question_type": "factual",
+        "source_chunk_id": "71cdc017",
+        "source_url": "https://en.wikipedia.org/wiki/Food_security"
+    },
+    {
+        "id": "q_30575e",
+        "question": "Who achieved the feat of winning the first Olympic gold medal in track and field for India at the 2020 Summer Olympics and the men's javelin throw gold at the 2016 IAAF World U20 Championships?",
+        "answer": "Neeraj Chopra",
+        "question_type": "comparative",
+        "source_chunk_id": "adbab912",
+        "source_url": "https://en.wikipedia.org/wiki/Sports_in_India"
+    },
+    {
+        "id": "q_f8923c",
+        "question": "Will the inclusion of 3x3 basketball in the Olympics increase its popularity and adoption worldwide, potentially leading to its growth as a major sport?",
+        "answer": "Not provided",
+        "question_type": "inferential",
+        "source_chunk_id": "5f49d260",
+        "source_url": "https://en.wikipedia.org/wiki/Basketball"
+    },
+    {
+        "id": "q_210f37",
+        "question": "How did the development of the humoral theory of disease by Hippocrates contribute to the understanding of the relationship between structure and function in the human body, which was later expanded upon by Galen, and how does this relate to the importance of the jab punch in boxing, which provides a fair amount of its own cover and leaves the least amount of space for a counter-punch from the opponent?",
+        "answer": "This question requires an understanding of the historical development of the humoral theory of disease and its relevance to modern physiology, as well as the role of the jab punch in boxing. The answer would require an explanation of how the humoral theory was refined by Galen and how this relates to the importance of the jab punch in providing a defensive advantage in boxing.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "523758e2",
+        "source_url": "https://en.wikipedia.org/wiki/Physiology"
+    },
+    {
+        "id": "q_d5b102",
+        "question": "When did Siddhartha Gautama, the founder of Buddhism, die?",
+        "answer": "The exact date of Siddhartha Gautama's death is not specified in the given text. However, it is known that he was born around 560 BC.",
+        "question_type": "factual",
+        "source_chunk_id": "8faba3de",
+        "source_url": "https://en.wikipedia.org/wiki/Ancient_history"
+    },
+    {
+        "id": "q_933351",
+        "question": "What genre of music did Krept and Konan's mixtape 'Young Kingz' enter the UK Albums Chart at number 19, and which category they entered the UK Albums Chart at number 3?",
+        "answer": "Hip hop, UK R&B Chart",
+        "question_type": "multi-hop",
+        "source_chunk_id": "5495561a",
+        "source_url": "https://en.wikipedia.org/wiki/Young_Kingz"
+    },
+    {
+        "id": "q_ef8dde",
+        "question": "What year did the United States perform its first nuclear weapon test?",
+        "answer": "This information is not provided in the given context, but the Soviet Union performed their first nuclear weapon test in 1949.",
+        "question_type": "factual",
+        "source_chunk_id": "b5225fe8",
+        "source_url": "https://en.wikipedia.org/wiki/History_of_the_United_States"
+    },
+    {
+        "id": "q_520701",
+        "question": "How does the current financial situation of the UN compare to its funding issues in the past, considering the role of major contributors like the US and China?",
+        "answer": "The current financial crisis is more severe than previous funding issues, with a significant number of countries delaying or refusing payments, causing massive budget cuts and putting millions of lives at risk.",
+        "question_type": "comparative",
+        "source_chunk_id": "a44d9ca3",
+        "source_url": "https://en.wikipedia.org/wiki/United_Nations"
+    },
+    {
+        "id": "q_058201",
+        "question": "Does the elimination of private property and social classes lead to the ultimate goal of a communist society?",
+        "answer": "Based on the context, it can be inferred that yes, the absence of private property and social classes is an essential aspect of a communist society.",
+        "question_type": "inferential",
+        "source_chunk_id": "5e3c0e2c",
+        "source_url": "https://en.wikipedia.org/wiki/Communism"
+    },
+    {
+        "id": "q_649494",
+        "question": "What aviation regulatory body is responsible for ensuring the safety of European airspace, and how does this relate to the Schengen Area, which allows for the free movement of people between 29 European countries?",
+        "answer": "The European Union Aviation Safety Agency (EASA) is responsible for ensuring the safety of European airspace. The Schengen Area, on the other hand, is an area comprising 29 European countries that have abolished passport and border controls, allowing for the free movement of people between these countries.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "77d72b75",
+        "source_url": "https://en.wikipedia.org/wiki/European_Union"
+    },
+    {
+        "id": "q_743a5c",
+        "question": "What is the relationship between a country losing access to the sea and its political, military, and economic repercussions, and how does this impact the creation of algorithms to detect biases in AI models?",
+        "answer": "Losing access to the sea is a significant loss for a nation, leading to political, military, and economic repercussions, and this concept is also relevant to the creation of algorithms to detect biases in AI models, as highlighted in the context of the IEEE standard for addressing algorithmic biases.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "4df4fe48",
+        "source_url": "https://en.wikipedia.org/wiki/Landlocked_country"
+    },
+    {
+        "id": "q_00f2ff",
+        "question": "What is the study of the interactions between non-ionizing radiation and living organisms called?",
+        "answer": "Photobiology",
+        "question_type": "factual",
+        "source_chunk_id": "78fd9798",
+        "source_url": "https://en.wikipedia.org/wiki/Medicine"
+    },
+    {
+        "id": "q_3808de",
+        "question": "What is a key difference between the heart anatomy of snakes and crocodilians?",
+        "answer": "Crocodilians have hearts with four chambers, unlike snakes, which do not.",
+        "question_type": "comparative",
+        "source_chunk_id": "0f774010",
+        "source_url": "https://en.wikipedia.org/wiki/Anatomy"
+    },
+    {
+        "id": "q_4dd319",
+        "question": "Would the implementation of stricter laws and regulations against steroid use, such as those introduced by the Steroid Trafficking Act of 1989, likely lead to a decrease in the number of athletes using performance-enhancing drugs?",
+        "answer": "This is a complex issue, and the answer is not certain, but it could be argued that stricter laws and regulations would lead to a decrease in the number of athletes using performance-enhancing drugs.",
+        "question_type": "inferential",
+        "source_chunk_id": "50ff43c1",
+        "source_url": "https://en.wikipedia.org/wiki/Doping_in_sport"
+    },
+    {
+        "id": "q_b0284c",
+        "question": "What was the consequence of the miners' strike in the UK, and how did this compare to the impact of strikes on the economy in the 1970s?",
+        "answer": "The miners' strike in the UK led to the closure of 150 coal mines, resulting in the loss of tens of thousands of jobs and devastating entire communities. This was in contrast to the 1970s, when strikes had helped bring down Heath's government, but the economy was less severely impacted.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "05194f6c",
+        "source_url": "https://en.wikipedia.org/wiki/Margaret_Thatcher"
+    },
+    {
+        "id": "q_e001a2",
+        "question": "How did the Indian National Army's advance into India contribute to the devastating famine in Bengal, and what impact did the famine have on the Indian independence movement?",
+        "answer": "The Indian National Army's advance into India in 1944 put additional pressure on British resources, which exacerbated the famine in Bengal. The famine, which lasted from 1940-1943, resulted in an estimated 2.1-3 million deaths. The suffering caused by the famine further galvanized the Indian independence movement, with many seeing the famine as a clear example of the need for India to be free from British colonial rule.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "60959e16",
+        "source_url": "https://en.wikipedia.org/wiki/History_of_India"
+    },
+    {
+        "id": "q_9d2a69",
+        "question": "Which of the following empires became a dominant force during the 13th and 14th centuries, conquering many territories in Asia and Europe?",
+        "answer": "The Mongol Empire",
+        "question_type": "factual",
+        "source_chunk_id": "3daaf0e9",
+        "source_url": "https://en.wikipedia.org/wiki/History"
+    },
+    {
+        "id": "q_a30f2c",
+        "question": "How does RNA synthesis differ in archaea and bacteria?",
+        "answer": "RNA synthesis in archaea and bacteria differs in that archaea typically use RNA polymerase II, while bacteria use RNA polymerase sigma-70, and the process is regulated differently.",
+        "question_type": "comparative",
+        "source_chunk_id": "2d231ea3",
+        "source_url": "https://en.wikipedia.org/wiki/RNA"
+    },
+    {
+        "id": "q_456008",
+        "question": "What would happen to the study of history if historians continued to prioritize politics, diplomacy, and war, as advocated by the Sorbonnistes?",
+        "answer": "The study of history would likely remain narrow and limited in scope, failing to consider the broader social, economic, and geographical factors that shape human societies.",
+        "question_type": "inferential",
+        "source_chunk_id": "7e0b2874",
+        "source_url": "https://en.wikipedia.org/wiki/Historiography"
+    },
+    {
+        "id": "q_2c8a58",
+        "question": "A boxer's crouched stance helps them deliver more powerful punches by positioning their bodyweight over the lead leg, generating a springing action that is not possible with an upright stance. However, this stance is not suitable for boxers who want to showcase their footwork, as they would be hindered by a more forward weight distribution. In contrast, athletes participating in track and field events often showcase their footwork, agility, and endurance, which is not a key aspect of boxing. What type of event is usually free and takes place on normal city roads?",
+        "answer": "road running",
+        "question_type": "multi-hop",
+        "source_chunk_id": "f2cc4f99",
+        "source_url": "https://en.wikipedia.org/wiki/Boxing"
+    },
+    {
+        "id": "q_b235c5",
+        "question": "How did the growing participation of women in sports during the Weimar period in Germany affect women's fashion, and what were some of the sports that women began participating in at that time?",
+        "answer": "Women's fashion reflected the changes that women perceived in themselves, with women's magazines showing them in sporting outfits as healthy and fit. Women began participating in competitive sports such as swimming, ski-jumping, and soccer, as well as participating in traditionally masculine sports like boxing and weightlifting.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "0e999be6",
+        "source_url": "https://en.wikipedia.org/wiki/Women%27s_sports"
+    },
+    {
+        "id": "q_8a742b",
+        "question": "What was the primary method used by France to fund the 1778 to 1783 Anglo-French War?",
+        "answer": "loans",
+        "question_type": "factual",
+        "source_chunk_id": "2fbc83c2",
+        "source_url": "https://en.wikipedia.org/wiki/French_Revolution"
+    },
+    {
+        "id": "q_34107e",
+        "question": "How do the transformer architecture and reinforcement learning contribute to the capabilities of large language models?",
+        "answer": "The transformer architecture replaced recurrence with self-attention, allowing efficient parallelization, longer context handling, and scalable training on unprecedented data volumes, while reinforcement learning has been adapted to fine-tune LLMs for desired behaviors beyond raw next-token prediction, such as compositional reasoning and aligning model outputs with user preferences.",
+        "question_type": "comparative",
+        "source_chunk_id": "6a2739bd",
+        "source_url": "https://en.wikipedia.org/wiki/Large_language_model"
+    },
+    {
+        "id": "q_959dcd",
+        "question": "Which of the following factors do you think significantly contributed to the Russian defeats at Tannenberg and the Masurian Lakes in August and September 1914?",
+        "answer": "open-ended",
+        "question_type": "inferential",
+        "source_chunk_id": "3759cd52",
+        "source_url": "https://en.wikipedia.org/wiki/World_War_I"
+    },
+    {
+        "id": "q_5072e0",
+        "question": "What Olympic boycott was threatened by a large number of African countries in 1972 and 1976 due to South Africa's segregationist rule, and what was the consequence for South Africa and Rhodesia in the first two cases?",
+        "answer": "The boycott was threatened due to South Africa's segregationist rule. In the first two cases, the IOC conceded and banned South Africa and Rhodesia.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "fb991863",
+        "source_url": "https://en.wikipedia.org/wiki/Olympic_Games"
+    },
+    {
+        "id": "q_1fdfd1",
+        "question": "Who defeated the conquerors at the Battle of Poitiers in 732?",
+        "answer": "Charles Martel",
+        "question_type": "factual",
+        "source_chunk_id": "99cd283e",
+        "source_url": "https://en.wikipedia.org/wiki/History_of_Europe"
+    },
+    {
+        "id": "q_94d138",
+        "question": "What is a primary difference between industrial agriculture and small-scale migrant farming in terms of their impact on deforestation?",
+        "answer": "Industrial agriculture is often viewed as a primary facilitator of mass deforestation, whereas small-scale migrant farming is a significant contributor to old-growth forest deforestation.",
+        "question_type": "comparative",
+        "source_chunk_id": "3f581e8b",
+        "source_url": "https://en.wikipedia.org/wiki/Land_use"
+    },
+    {
+        "id": "q_833364",
+        "question": "What evolutionary advantages may have arisen from the emergence of photosynthetic and mixotrophic dinoflagellates?",
+        "answer": "They may have developed the ability to compete with acritarchs and possibly led to the development of more complex ecosystems.",
+        "question_type": "inferential",
+        "source_chunk_id": "df596c12",
+        "source_url": "https://en.wikipedia.org/wiki/Timeline_of_Earth"
+    },
+    {
+        "id": "q_47dbb8",
+        "question": "What economic models based on democratic or market socialism, and developed by John Roemer and Nicholas Vrousalis, were modified to address criticisms from economists like Joseph Stiglitz and Mancur Olson, and what is the role of public ownership in these models?",
+        "answer": "These models, developed by John Roemer and Nicholas Vrousalis, were modified to address criticisms from economists like Joseph Stiglitz and Mancur Olson. Public ownership in these models can refer to the creation of state-owned enterprises, nationalisation, municipalisation, or autonomous collective institutions, and is often considered necessary for the 'commanding heights' of the economy to be publicly owned.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "6149ab49",
+        "source_url": "https://en.wikipedia.org/wiki/Socialism"
+    },
+    {
+        "id": "q_56fe34",
+        "question": "Does the construction of the new station building in 1965 suggest a significant increase in passenger traffic on the Ravenglass & Eskdale Railway?",
+        "answer": "open-ended",
+        "question_type": "inferential",
+        "source_chunk_id": "7fb221fe",
+        "source_url": "https://en.wikipedia.org/wiki/The_Green_railway_station"
+    },
+    {
+        "id": "q_f621b8",
+        "question": "How does the representativeness of digital trace data compare to that of traditional survey data in the context of international quantitative analysis?",
+        "answer": "Digital trace data is never a random sample, whereas traditional survey data is primarily concerned with the representativeness of random survey samples.",
+        "question_type": "comparative",
+        "source_chunk_id": "8b362765",
+        "source_url": "https://en.wikipedia.org/wiki/Big_data"
+    },
+    {
+        "id": "q_a1e0aa",
+        "question": "Based on the text, what would be a likely reason for the continued revisions in biological classification?",
+        "answer": "The use of molecular phylogenetics, which drives revisions based on nucleic acid sequence data.",
+        "question_type": "inferential",
+        "source_chunk_id": "3a48bfb0",
+        "source_url": "https://en.wikipedia.org/wiki/Zoology"
+    },
+    {
+        "id": "q_a166d6",
+        "question": "How does the concept of fascist ideology, which originated from a mix of left-wing and right-wing views, relate to its stated goal to promote the superiority of a certain group, and what implications did this have on the accommodation of the political right into the Italian Fascist movement, leading to its right-wing stance?",
+        "answer": "This question requires an understanding of the complex origins of fascist ideology, its shift towards the right, and its implications on the accommodation of the political right. The correct answer would involve explaining how fascist ideology's goal to promote the superiority of a certain group led to its right-wing stance and how this stance was accommodated by the political right in Italy.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "ce0be6c4",
+        "source_url": "https://en.wikipedia.org/wiki/Fascism"
+    },
+    {
+        "id": "q_802aba",
+        "question": "What is a central open problem in AI research that makes it difficult to supervise an AI system that can outperform or mislead humans in a given domain?",
+        "answer": "Scalable oversight",
+        "question_type": "factual",
+        "source_chunk_id": "6cf1cd98",
+        "source_url": "https://en.wikipedia.org/wiki/AI_alignment"
+    },
+    {
+        "id": "q_e91776",
+        "question": "Which country has hosted or co-hosted more international cricket tournaments, India or Pakistan?",
+        "answer": "India",
+        "question_type": "comparative",
+        "source_chunk_id": "f9c1c7f9",
+        "source_url": "https://en.wikipedia.org/wiki/Sports_in_India"
+    },
+    {
+        "id": "q_5cb1c3",
+        "question": "How did the increase in bicycle routes in Taiwan, which was a result of the growing number of bicyclists, affect the philanthropic efforts in the country?",
+        "answer": "This question requires understanding that the growing number of bicyclists in Taiwan led to the establishment of more and safer bicycle routes, which in turn, does not have a direct link with philanthropic efforts. However, considering the context that the environment plays a huge role in people's decision to use bicycle touring, and that the study found that improving factors such as safety and cleanliness of the environment resulted in more recreational benefits to bicycle tourism, it can be inferred that the increase in bicycle routes may have had a positive impact on the environment, which could have indirectly affected philanthropic efforts in the country.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "95231f46",
+        "source_url": "https://en.wikipedia.org/wiki/Cycling"
+    },
+    {
+        "id": "q_b93b66",
+        "question": "How does the number of car parking spaces at Eskdale Green compare to other stations?",
+        "answer": "There is a very limited amount of car parking available at Eskdale Green",
+        "question_type": "comparative",
+        "source_chunk_id": "d30f8be6",
+        "source_url": "https://en.wikipedia.org/wiki/The_Green_railway_station"
+    },
+    {
+        "id": "q_227a9f",
+        "question": "Which of Jan Radzynski's awards likely had the most significant impact on his career, considering their timing and the institutions involved?",
+        "answer": "The Mellon Fellowship (1985) and the Distinguished Scholar Award from Ohio State University (1996)",
+        "question_type": "inferential",
+        "source_chunk_id": "86a8cf5f",
+        "source_url": "https://en.wikipedia.org/wiki/Jan_Radzynski"
+    },
+    {
+        "id": "q_b2b6b5",
+        "question": "How did Gandhi's experiments with brahmacharya relate to his views on non-violence and sustainability, and what impact did these experiments have on his approach to living in cities?",
+        "answer": "Gandhi's experiments with brahmacharya were closely tied to his views on non-violence and sustainability. He believed that abstinence from sex and food was essential for spiritual growth and self-restraint. This philosophy influenced his approach to living in cities, where he advocated for sustainable living, walkability, and compact urban neighborhoods. His experiments with brahmacharya eventually led him to consider the impact of human behavior on the environment and the importance of reducing waste and promoting sustainable development, which is reflected in the concept of New Urbanism and the Leadership in Energy and Environmental Design (LEED) Green Building Rating System.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "a916a17f",
+        "source_url": "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+    },
+    {
+        "id": "q_23ac27",
+        "question": "In what year did J. C. R. Licklider, the director of ARPA, establish the policy to 'fund people, not projects!'?",
+        "answer": "1963",
+        "question_type": "factual",
+        "source_chunk_id": "c0c5a818",
+        "source_url": "https://en.wikipedia.org/wiki/History_of_artificial_intelligence"
+    },
+    {
+        "id": "q_2e817e",
+        "question": "What do the recent government initiatives to provide state services to remote communities in the Desertores archipelago indicate about the government's attitude towards the region's development?",
+        "answer": "A shift towards greater inclusivity and recognition of the region's importance.",
+        "question_type": "inferential",
+        "source_chunk_id": "6b35a105",
+        "source_url": "https://en.wikipedia.org/wiki/Desertores_Islands"
+    },
+    {
+        "id": "q_a6eafe",
+        "question": "What is the primary difference between Type III CRISPR systems and Type II CRISPR systems in terms of their crRNA cleavage mechanisms, and how does this relate to the Italian army's unpreparedness for the major offensive required by the Treaty of London in 1915?",
+        "answer": "Type III CRISPR systems use Cas6 to cleave the longer transcript just upstream of the repeat sequence, whereas Type II CRISPR systems lack the Cas6 gene and use RNaseIII to cleavage dsRNA at the repeat sequence. Similarly, the Italian army's unpreparedness for the major offensive was due to several deficiencies, including a lack of modern weapons and adequate transport, which made it difficult for them to make progress in the challenging terrain of the Alps and Dolomites.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "8782d8f5",
+        "source_url": "https://en.wikipedia.org/wiki/Crispr"
+    },
+    {
+        "id": "q_f7cf63",
+        "question": "Which Japanese samurai lord led the Minamoto in the Hōgen Rebellion and was also known as Mutsu Shirō, and what was the reason why this samurai lord was eventually beheaded by his son?",
+        "answer": "Minamoto no Tameyoshi led the Minamoto in the Hōgen Rebellion and was also known as Mutsu Shirō. He was eventually beheaded by his son Minamoto no Yoshitomo due to the perceived reputational weakness of the Minamoto line, which was dogged by the fact that their patriarch Yoshiie had to put down a rebellion led by their son Yoshichika.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "5fac518a",
+        "source_url": "https://en.wikipedia.org/wiki/Minamoto_no_Tameyoshi"
+    },
+    {
+        "id": "q_3aed9a",
+        "question": "What prize was awarded to Rachlin by the Accademia Musicale Chigiana of Siena in 2000?",
+        "answer": "International Prize",
+        "question_type": "factual",
+        "source_chunk_id": "dca3e072",
+        "source_url": "https://en.wikipedia.org/wiki/Julian_Rachlin"
+    },
+    {
+        "id": "q_6083fc",
+        "question": "Residents of low-density areas spend a higher proportion of their income on transportation compared to high-density areas, with a significant difference of £3,905 per year, per person due to urban sprawl.",
+        "answer": "£3,905",
+        "question_type": "comparative",
+        "source_chunk_id": "6f575a6e",
+        "source_url": "https://en.wikipedia.org/wiki/Urban_sprawl"
+    },
+    {
+        "id": "q_e1a6be",
+        "question": "Why did the British officers' departure from the police and army units in the Punjab and Bengal provinces contribute to the widespread violence during the partition?",
+        "answer": "This was likely because the absence of British authority led to a breakdown in discipline and a rise in tolerance or indulgence of violence against religious enemies.",
+        "question_type": "inferential",
+        "source_chunk_id": "21d92469",
+        "source_url": "https://en.wikipedia.org/wiki/History_of_India"
+    },
+    {
+        "id": "q_ceef78",
+        "question": "What process, present in both eukaryotic organisms and certain bacterial species, results in the transfer of genetic information between organisms?",
+        "answer": "Horizontal gene transfer is the process that results in the transfer of genetic information between organisms.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "f24f1fef",
+        "source_url": "https://en.wikipedia.org/wiki/Genetics"
+    },
+    {
+        "id": "q_6b5938",
+        "question": "Who was the father of Minamoto no Yoshitomo?",
+        "answer": "Minamoto no Yoshichika",
+        "question_type": "factual",
+        "source_chunk_id": "7c60d57a",
+        "source_url": "https://en.wikipedia.org/wiki/Minamoto_no_Tameyoshi"
+    },
+    {
+        "id": "q_2bfcf6",
+        "question": "How effective is bacteriophage therapy compared to fecal microbiota transplantation in treating antibiotic-resistant pathogens?",
+        "answer": "There is no direct comparison available, but bacteriophage therapy has shown promise in treating antibiotic-resistant pathogens, while fecal microbiota transplantation has been effective in treating C. difficile infections.",
+        "question_type": "comparative",
+        "source_chunk_id": "898a0ecd",
+        "source_url": "https://en.wikipedia.org/wiki/Antibiotics"
+    },
+    {
+        "id": "q_ef87ee",
+        "question": "Based on the context, how would you infer that the Indian National Congress' stance on international agreements, such as the Nuclear Non-Proliferation Treaty, might be influenced by its perception of their 'discriminatory and hegemonistic nature'?",
+        "answer": "string",
+        "question_type": "inferential",
+        "source_chunk_id": "9b20f4cd",
+        "source_url": "https://en.wikipedia.org/wiki/Indian_National_Congress"
+    },
+    {
+        "id": "q_09b1a2",
+        "question": "What is the approximate size of the Yoshitake Takagi Site in Fukuoka, Japan, and how does it compare to the area of the entire ruins group?",
+        "answer": "The designated area of the Yoshitake Takagi Site is approximately 42,145.17 square meters, which is roughly one-tenth of the area of the entire ruins group.",
+        "question_type": "multi-hop",
+        "source_chunk_id": "63e00ba9",
+        "source_url": "https://en.wikipedia.org/wiki/Yoshitaketakagi_Site"
+    }
 ]
