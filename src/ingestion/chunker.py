@@ -80,7 +80,7 @@ def run_pipeline():
     with open('data/corpus_chunks.json', 'w', encoding='utf-8') as f:
         json.dump(all_chunks, f, indent=4)
     
-    print(f"\nPipeline Complete! Created {len(all_chunks)} chunks.")
+    print(f"\nCreated {len(all_chunks)} chunks.")
 
 if __name__ == "__main__":
     run_pipeline()
