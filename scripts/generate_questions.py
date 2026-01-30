@@ -1,268 +1,140 @@
-#!/usr/bin/env python3
-"""
-Generate evaluation questions from Wikipedia corpus
-"""
-
 import json
 import random
-from pathlib import Path
-from typing import List, Dict, Any
-import logging
+import uuid
+import os
+import time
 import re
-import sys
+from typing import List, Dict
+from huggingface_hub import InferenceClient
+from dotenv import load_dotenv, find_dotenv
 
-# Add src to path
-sys.path.insert(0, str(Path(__file__).parent.parent))
-
-from src.config import FILE_PATHS
-
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
-
+load_dotenv(find_dotenv())
 
 class QuestionGenerator:
-    """Generate diverse questions from Wikipedia chunks"""
+    """
+    A robust Q&A generator that handles rate limits, resumes progress,
+    and ensures diverse question types across a corpus.
+    """
+    def __init__(self, model="meta-llama/Llama-3.1-8B-Instruct"):
+        self.model = model
+        self.categories = ["factual", "comparative", "inferential", "multi-hop"]
+        
+        hf_token = os.getenv("HF_TOKEN")
+        if not hf_token:
+            raise ValueError("CRITICAL: HF_TOKEN not found in .env file.")
+        
+        self.client = InferenceClient(api_key=hf_token)
 
-    def __init__(self):
-        self.question_templates = {
-            "factual": [
-                "What is {entity}?",
-                "When was {entity} {action}?",
-                "Who {action} {entity}?",
-                "Where is {entity} located?",
-                "How does {entity} work?",
-                "What are the main characteristics of {entity}?",
-                "Why is {entity} important?",
-                "What is the purpose of {entity}?"
-            ],
-            "comparative": [
-                "What are the differences between {entity1} and {entity2}?",
-                "How is {entity1} similar to {entity2}?",
-                "Compare {entity1} with {entity2}.",
-                "What advantages does {entity1} have over {entity2}?",
-                "How does {entity1} differ from {entity2} in terms of {aspect}?"
-            ],
-            "inferential": [
-                "Based on the information, what can be inferred about {entity}?",
-                "What are the implications of {fact}?",
-                "If {condition}, what would happen to {entity}?",
-                "What conclusions can be drawn about {entity}?",
-                "How might {entity} affect {other_entity}?"
-            ],
-            "multi-hop": [
-                "What is the relationship between {entity1} and {entity2} through {entity3}?",
-                "How did {event1} lead to {event2}?",
-                "What are the common factors between {entity1} and {entity2} in the context of {topic}?",
-                "Based on information about {entity1} and {entity2}, what can be said about {entity3}?"
-            ]
-        }
+    def generate_single_qa(self, chunks: List[Dict], category: str) -> Dict:
+        """Calls HF API to generate a single JSON Q&A pair."""
+        context_text = "\n\n".join([f"Source: {c['text']}" for c in chunks])
+        
+        prompt = f"""Task: Generate ONE {category} question based on the context provided.
+        Context: {context_text}
+        
+        Return ONLY a JSON object with these keys:
+        {{
+            "question": "string",
+            "answer": "string",
+            "question_type": "{category}"
+        }}"""
 
-        # Actions for factual questions
-        self.actions = ["created", "invented", "discovered", "founded", "developed", "built", "established"]
-
-        # Aspects for comparative questions
-        self.aspects = ["performance", "efficiency", "cost", "complexity", "applications", "history"]
-
-        # Conditions for inferential questions
-        self.conditions = ["this trend continues", "the technology improves", "more funding is available",
-                           "regulations change"]
-
-    def extract_entities(self, text: str) -> List[str]:
-        """Extract potential entities from text"""
-        entities = []
-
-        # Look for capitalized phrases (simple NER)
-        sentences = text.split('. ')
-
-        for sentence in sentences:
-            # Find noun phrases with initial capitals
-            words = sentence.split()
-            for i in range(len(words) - 1):
-                if (words[i][0].isupper() and words[i + 1][0].isupper() and
-                        len(words[i]) > 1 and len(words[i + 1]) > 1):
-                    entity = f"{words[i]} {words[i + 1]}"
-                    if entity not in entities and len(entity) > 3:
-                        entities.append(entity)
-                elif words[i][0].isupper() and len(words[i]) > 2 and words[i].isalpha():
-                    if words[i] not in entities:
-                        entities.append(words[i])
-
-        return list(set(entities))[:10]
-
-    def extract_facts(self, text: str) -> List[str]:
-        """Extract factual statements from text"""
-        facts = []
-        sentences = text.split('. ')
-
-        for sentence in sentences:
-            # Look for factual patterns
-            if any(pattern in sentence.lower() for pattern in
-                   ['is a', 'was founded', 'located in', 'developed by',
-                    'created in', 'invented by', 'born in', 'died in',
-                    'consists of', 'includes', 'contains', 'provides']):
-                facts.append(sentence.strip())
-
-        return facts[:5]
-
-    def generate_question_from_chunk(self, chunk: Dict[str, Any],
-                                     question_type: str) -> Dict[str, Any]:
-        """Generate a question from a single chunk"""
-        text = chunk["text"]
-        entities = self.extract_entities(text)
-        facts = self.extract_facts(text)
-
-        if not entities:
+        try:
+            time.sleep(2.0) 
+            response = self.client.chat_completion(
+                model=self.model,
+                messages=[
+                    {"role": "system", "content": "You are a research assistant that only outputs valid JSON."},
+                    {"role": "user", "content": prompt}
+                ],
+                max_tokens=500,
+            )
+            
+            content = response.choices[0].message.content.strip()
+            # Remove potential markdown formatting
+            content = re.sub(r'```json\s*|```', '', content).strip()
+            raw_qa = json.loads(content)
+            
+            return {
+                "id": f"q_{uuid.uuid4().hex[:6]}",
+                "question": raw_qa.get("question"),
+                "answer": raw_qa.get("answer"),
+                "question_type": category,
+                "source_chunk_id": chunks[0].get("chunk_id", "unknown"),
+                "source_url": chunks[0].get("url"),
+                "source_title": chunks[0].get("title")
+            }
+        except Exception as e:
+            if "402" in str(e):
+                print(f"Quota exceeded. Skipping this chunk for now.")
+            else:
+                print(f"Error during generation: {e}")
             return None
 
-        # Select template
-        templates = self.question_templates.get(question_type, [])
-        if not templates:
-            return None
+    def run_pipeline(self, chunks_path: str, output_path: str, target_count=100):
+        """Manages the full flow: load, check progress, generate, and save."""
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-        template = random.choice(templates)
+        # Load Chunks
+        if not os.path.exists(chunks_path):
+            print(f"Error: {chunks_path} not found.")
+            return
 
-        # Fill template
-        question = template
-        if "{entity}" in template:
-            entity = random.choice(entities)
-            question = question.replace("{entity}", entity)
+        with open(chunks_path, 'r', encoding='utf-8') as f:
+            all_chunks = json.load(f)
 
-            # Add action for some templates
-            if "{action}" in question:
-                action = random.choice(self.actions)
-                question = question.replace("{action}", action)
+        existing_data = []
+        if os.path.exists(output_path):
+            with open(output_path, 'r', encoding='utf-8') as f:
+                try:
+                    existing_data = json.load(f)
+                except json.JSONDecodeError:
+                    existing_data = []
+        
+        current_count = len(existing_data)
+        if current_count >= target_count:
+            print(f"Already reached target: {current_count} questions exist.")
+            return existing_data
 
-        elif "{entity1}" in template and "{entity2}" in template:
-            if len(entities) >= 2:
-                entity1, entity2 = random.sample(entities, 2)
-                question = question.replace("{entity1}", entity1)
-                question = question.replace("{entity2}", entity2)
+        used_ids = {q.get("source_chunk_id") for q in existing_data}
+        available_chunks = [c for c in all_chunks if c.get("chunk_id") not in used_ids]
+        
+        needed = target_count - current_count
+        print(f"Resuming: {current_count}/{target_count}. Generating {needed} more...")
 
-                # Add aspect for some templates
-                if "{aspect}" in question:
-                    aspect = random.choice(self.aspects)
-                    question = question.replace("{aspect}", aspect)
+        # Sequential Generation
+        # We use a step to ensure we spread the 100 questions across all available chunks
+        step = max(1, len(available_chunks) // needed)
+        
+        new_items = []
+        for i in range(needed):
+            idx = (i * step) % len(available_chunks)
+            chunk = available_chunks[idx]
+            category = self.categories[(current_count + i) % len(self.categories)]
+            
+            # Context setup (Multi-hop needs 2 chunks)
+            context = [chunk]
+            if category == "multi-hop":
+                context.append(random.choice(all_chunks))
+
+            print(f"[{i+current_count+1}/{target_count}] Generating {category}...")
+            qa_pair = self.generate_single_qa(context, category)
+            
+            if qa_pair:
+                new_items.append(qa_pair)
+                # SAVE IMMEDIATELY (Checkpointing)
+                with open(output_path, 'w', encoding='utf-8') as f:
+                    json.dump(existing_data + new_items, f, indent=4, ensure_ascii=False)
             else:
-                return None
-        elif "{fact}" in template:
-            if facts:
-                fact = random.choice(facts)
-                question = question.replace("{fact}", fact[:50] + "...")
-            else:
-                return None
-        elif "{condition}" in template:
-            condition = random.choice(self.conditions)
-            question = question.replace("{condition}", condition)
-            if "{entity}" in question:
-                entity = random.choice(entities)
-                question = question.replace("{entity}", entity)
-        elif "{topic}" in template:
-            # Use first entity as topic
-            topic = entities[0] if entities else "technology"
-            question = question.replace("{topic}", topic)
+                print("Generation failed. Waiting 10s...")
+                time.sleep(10)
 
-        # Generate answer (simplified)
-        sentences = text.split('. ')
-        answer = sentences[0] if sentences else "Information not found."
-
-        return {
-            "id": f"q_{hash(chunk['chunk_id']) % 1000000:06d}",
-            "question": question,
-            "answer": answer,
-            "question_type": question_type,
-            "source_chunk_id": chunk["chunk_id"],
-            "source_url": chunk["url"],
-            "source_title": chunk["title"],
-            "source_text_preview": text[:100] + "...",
-            "source_urls": [chunk["url"]]
-        }
-
-    def generate_questions_from_chunks(self, chunks: List[Dict[str, Any]],
-                                       num_questions: int = 100) -> List[Dict[str, Any]]:
-        """Generate questions from chunks"""
-        questions = []
-
-        # Filter chunks with enough text
-        valid_chunks = [c for c in chunks if len(c["text"].split()) > 30]
-
-        if not valid_chunks:
-            logger.error("No valid chunks found")
-            return questions
-
-        # Shuffle chunks
-        random_chunks = random.sample(valid_chunks, min(len(valid_chunks), 200))
-
-        # Balance question types
-        question_types = list(self.question_templates.keys())
-        questions_per_type = num_questions // len(question_types)
-
-        logger.info(f"Generating questions from {len(random_chunks)} chunks...")
-
-        for q_type in question_types:
-            type_questions = []
-            attempts = 0
-            max_attempts = questions_per_type * 10
-
-            while len(type_questions) < questions_per_type and attempts < max_attempts:
-                chunk = random.choice(random_chunks)
-                question = self.generate_question_from_chunk(chunk, q_type)
-
-                if question and question not in type_questions:
-                    type_questions.append(question)
-
-                attempts += 1
-
-            questions.extend(type_questions)
-            logger.info(f"Generated {len(type_questions)} {q_type} questions")
-
-        # Ensure we have exactly num_questions
-        if len(questions) > num_questions:
-            questions = questions[:num_questions]
-
-        logger.info(f"Generated {len(questions)} total questions")
-        return questions
-
-    def save_questions(self, questions: List[Dict[str, Any]], output_path: Path):
-        """Save questions to JSON file"""
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(questions, f, indent=2, ensure_ascii=False)
-        logger.info(f"Saved {len(questions)} questions to {output_path}")
-
-
-def main():
-    """Main function for standalone question generation"""
-    # Load chunks
-    chunks_path = FILE_PATHS["corpus_chunks"]
-
-    if not chunks_path.exists():
-        logger.error(f"Chunks file not found: {chunks_path}")
-        logger.error("Please run ingestion first or provide path to existing chunks.")
-        return
-
-    # Load chunks
-    with open(chunks_path, 'r', encoding='utf-8') as f:
-        chunks = json.load(f)
-
-    logger.info(f"Loaded {len(chunks)} chunks from {chunks_path}")
-
-    # Generate questions
-    generator = QuestionGenerator()
-    questions = generator.generate_questions_from_chunks(chunks, num_questions=100)
-
-    # Save questions
-    output_path = FILE_PATHS["questions"]
-    generator.save_questions(questions, output_path)
-
-    # Print sample questions
-    print("\n" + "=" * 60)
-    print("Sample Generated Questions:")
-    print("=" * 60)
-    for i, q in enumerate(questions[:5]):
-        print(f"\n{i + 1}. Type: {q['question_type']}")
-        print(f"   Question: {q['question']}")
-        print(f"   Answer: {q['answer'][:80]}...")
-        print(f"   Source: {q['source_title']}")
-
+        print(f"Success! Total questions: {len(existing_data + new_items)}")
 
 if __name__ == "__main__":
-    main()
+    # Defining our file paths
+    CHUNKS_FILE = 'data/corpus_chunks.json'
+    OUTPUT_FILE = 'data/questions_100.json'
+    
+    generator = QuestionGenerator()
+    generator.run_pipeline(CHUNKS_FILE, OUTPUT_FILE, target_count=100)
