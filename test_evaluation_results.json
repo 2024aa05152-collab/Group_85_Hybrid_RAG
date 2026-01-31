@@ -1,0 +1,319 @@
+{
+  "evaluation_timestamp": "2026-01-31T23:47:18.859121",
+  "total_questions": 3,
+  "metrics": {
+    "mrr_url_level": {
+      "mean_mrr": 0.611111111111111,
+      "std_mrr": 0.28327886186626583,
+      "mrr_scores": [
+        1.0,
+        0.5,
+        0.3333333333333333
+      ],
+      "details": [
+        {
+          "question_id": "q001",
+          "question": "What is the capital of France?",
+          "mrr": 1.0,
+          "ground_truth_urls": [
+            "https://en.wikipedia.org/wiki/Paris"
+          ],
+          "retrieved_urls": [
+            "https://en.wikipedia.org/wiki/Paris",
+            "https://en.wikipedia.org/wiki/France",
+            "https://en.wikipedia.org/wiki/Europe"
+          ],
+          "first_correct_rank": 1.0
+        },
+        {
+          "question_id": "q002",
+          "question": "Who wrote Romeo and Juliet?",
+          "mrr": 0.5,
+          "ground_truth_urls": [
+            "https://en.wikipedia.org/wiki/William_Shakespeare"
+          ],
+          "retrieved_urls": [
+            "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+            "https://en.wikipedia.org/wiki/William_Shakespeare",
+            "https://en.wikipedia.org/wiki/English_literature"
+          ],
+          "first_correct_rank": 2.0
+        },
+        {
+          "question_id": "q003",
+          "question": "What is the largest planet in our solar system?",
+          "mrr": 0.3333333333333333,
+          "ground_truth_urls": [
+            "https://en.wikipedia.org/wiki/Jupiter"
+          ],
+          "retrieved_urls": [
+            "https://en.wikipedia.org/wiki/Solar_System",
+            "https://en.wikipedia.org/wiki/Planet",
+            "https://en.wikipedia.org/wiki/Jupiter"
+          ],
+          "first_correct_rank": 3.0
+        }
+      ],
+      "summary": {
+        "total_questions": 3,
+        "questions_with_correct_url": 3,
+        "perfect_mrr_questions": 1
+      }
+    },
+    "bertscore_answer_quality": {
+      "bertscore_precision": {
+        "mean": 0.9640421072642008,
+        "std": 0.019741597390936297,
+        "scores": [
+          0.9613412618637085,
+          0.9413275122642517,
+          0.9894575476646423
+        ]
+      },
+      "bertscore_recall": {
+        "mean": 0.9640421072642008,
+        "std": 0.019741597390936297,
+        "scores": [
+          0.9613412618637085,
+          0.9413275122642517,
+          0.9894575476646423
+        ]
+      },
+      "bertscore_f1": {
+        "mean": 0.9640421072642008,
+        "std": 0.019741597390936297,
+        "scores": [
+          0.9613412618637085,
+          0.9413275122642517,
+          0.9894575476646423
+        ]
+      },
+      "details": [
+        {
+          "question_id": "q001",
+          "question": "What is the capital of France?",
+          "generated_answer": "Paris is the capital city of France.",
+          "reference_answer": "The capital of France is Paris.",
+          "bert_precision": 0.9613412618637085,
+          "bert_recall": 0.9613412618637085,
+          "bert_f1": 0.9613412618637085
+        },
+        {
+          "question_id": "q002",
+          "question": "Who wrote Romeo and Juliet?",
+          "generated_answer": "William Shakespeare wrote Romeo and Juliet.",
+          "reference_answer": "Romeo and Juliet was written by William Shakespeare.",
+          "bert_precision": 0.9413275122642517,
+          "bert_recall": 0.9413275122642517,
+          "bert_f1": 0.9413275122642517
+        },
+        {
+          "question_id": "q003",
+          "question": "What is the largest planet in our solar system?",
+          "generated_answer": "Jupiter is the largest planet in our solar system.",
+          "reference_answer": "The largest planet in our solar system is Jupiter.",
+          "bert_precision": 0.9894575476646423,
+          "bert_recall": 0.9894575476646423,
+          "bert_f1": 0.9894575476646423
+        }
+      ],
+      "summary": {
+        "total_evaluated": 3,
+        "high_quality_answers": 3,
+        "moderate_quality_answers": 0,
+        "low_quality_answers": 0
+      }
+    },
+    "precision_k_retrieval_quality": {
+      "precision_at_5": {
+        "mean": 0.3333333333333333,
+        "std": 0.0,
+        "scores": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      "precision_at_10": {
+        "mean": 0.3333333333333333,
+        "std": 0.0,
+        "scores": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      "hit_rate_at_10": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    "additional_metrics": {
+      "context_relevance": {
+        "mean": 0.3221971738640453,
+        "std": 0.13508414798702958,
+        "scores": [
+          0.24553645710825403,
+          0.20898895155722277,
+          0.512066112926659
+        ]
+      },
+      "answer_specificity": {
+        "mean": 0.9333333333333332,
+        "std": 0.09428090415820632,
+        "scores": [
+          1.0,
+          0.8,
+          1.0
+        ]
+      },
+      "retrieval_diversity": {
+        "mean": 1.0,
+        "std": 0.0,
+        "scores": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "summary": {
+    "overall_performance": "Good",
+    "key_metrics": {
+      "mrr_url_level": 0.6111,
+      "bertscore_f1": 0.964,
+      "precision_at_5": 0.3333,
+      "precision_at_10": 0.3333
+    },
+    "strengths": [
+      "High semantic answer quality (high BERTScore)"
+    ],
+    "weaknesses": [
+      "Poor URL-level retrieval (low MRR)",
+      "Low precision in top-5 retrievals"
+    ],
+    "recommendations": [
+      "Improve retrieval relevance and ranking",
+      "Refine retrieval algorithm to improve precision"
+    ]
+  },
+  "detailed_results": {
+    "mrr_details": [
+      {
+        "question_id": "q001",
+        "question": "What is the capital of France?",
+        "mrr": 1.0,
+        "ground_truth_urls": [
+          "https://en.wikipedia.org/wiki/Paris"
+        ],
+        "retrieved_urls": [
+          "https://en.wikipedia.org/wiki/Paris",
+          "https://en.wikipedia.org/wiki/France",
+          "https://en.wikipedia.org/wiki/Europe"
+        ],
+        "first_correct_rank": 1.0
+      },
+      {
+        "question_id": "q002",
+        "question": "Who wrote Romeo and Juliet?",
+        "mrr": 0.5,
+        "ground_truth_urls": [
+          "https://en.wikipedia.org/wiki/William_Shakespeare"
+        ],
+        "retrieved_urls": [
+          "https://en.wikipedia.org/wiki/Romeo_and_Juliet",
+          "https://en.wikipedia.org/wiki/William_Shakespeare",
+          "https://en.wikipedia.org/wiki/English_literature"
+        ],
+        "first_correct_rank": 2.0
+      },
+      {
+        "question_id": "q003",
+        "question": "What is the largest planet in our solar system?",
+        "mrr": 0.3333333333333333,
+        "ground_truth_urls": [
+          "https://en.wikipedia.org/wiki/Jupiter"
+        ],
+        "retrieved_urls": [
+          "https://en.wikipedia.org/wiki/Solar_System",
+          "https://en.wikipedia.org/wiki/Planet",
+          "https://en.wikipedia.org/wiki/Jupiter"
+        ],
+        "first_correct_rank": 3.0
+      }
+    ],
+    "bert_details": [
+      {
+        "question_id": "q001",
+        "question": "What is the capital of France?",
+        "generated_answer": "Paris is the capital city of France.",
+        "reference_answer": "The capital of France is Paris.",
+        "bert_precision": 0.9613412618637085,
+        "bert_recall": 0.9613412618637085,
+        "bert_f1": 0.9613412618637085
+      },
+      {
+        "question_id": "q002",
+        "question": "Who wrote Romeo and Juliet?",
+        "generated_answer": "William Shakespeare wrote Romeo and Juliet.",
+        "reference_answer": "Romeo and Juliet was written by William Shakespeare.",
+        "bert_precision": 0.9413275122642517,
+        "bert_recall": 0.9413275122642517,
+        "bert_f1": 0.9413275122642517
+      },
+      {
+        "question_id": "q003",
+        "question": "What is the largest planet in our solar system?",
+        "generated_answer": "Jupiter is the largest planet in our solar system.",
+        "reference_answer": "The largest planet in our solar system is Jupiter.",
+        "bert_precision": 0.9894575476646423,
+        "bert_recall": 0.9894575476646423,
+        "bert_f1": 0.9894575476646423
+      }
+    ],
+    "custom_details": [
+      {
+        "question_id": "q001",
+        "question": "What is the capital of France?",
+        "context_relevance": 0.24553645710825403,
+        "answer_specificity": 1.0,
+        "retrieval_diversity": 1.0,
+        "precision_at_5": 0.3333333333333333,
+        "precision_at_10": 0.3333333333333333,
+        "hit_rate_at_10": 1.0,
+        "num_context_chunks": 2,
+        "num_retrieved_chunks": 3
+      },
+      {
+        "question_id": "q002",
+        "question": "Who wrote Romeo and Juliet?",
+        "context_relevance": 0.20898895155722277,
+        "answer_specificity": 0.8,
+        "retrieval_diversity": 1.0,
+        "precision_at_5": 0.3333333333333333,
+        "precision_at_10": 0.3333333333333333,
+        "hit_rate_at_10": 1.0,
+        "num_context_chunks": 2,
+        "num_retrieved_chunks": 3
+      },
+      {
+        "question_id": "q003",
+        "question": "What is the largest planet in our solar system?",
+        "context_relevance": 0.512066112926659,
+        "answer_specificity": 1.0,
+        "retrieval_diversity": 1.0,
+        "precision_at_5": 0.3333333333333333,
+        "precision_at_10": 0.3333333333333333,
+        "hit_rate_at_10": 1.0,
+        "num_context_chunks": 2,
+        "num_retrieved_chunks": 3
+      }
+    ]
+  }
+}
