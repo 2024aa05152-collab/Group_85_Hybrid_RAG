@@ -6,9 +6,7 @@ __pycache__/
 venv/
 .env
 
-# Data files (optional – keep URLs only if allowed)
-data/faiss.index
-data/bm25.json
+data/hf_cache/
 
 # OS
 .DS_Store
