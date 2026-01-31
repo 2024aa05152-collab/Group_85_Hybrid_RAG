@@ -7,17 +7,14 @@ load_dotenv()
 
 class ResponseGenerator:
     def __init__(self, model_id: str = "Qwen/Qwen2.5-0.5B-Instruct"):
-        # Redirect cache to E: drive to save C: space
         self.cache_dir = os.getenv("HF_HOME", "./data/hf_cache")
         self.hf_token = os.getenv("HF_TOKEN")
 
-        # 1. Load Tokenizer
+        # Load Tokenizer
         self.tokenizer = AutoTokenizer.from_pretrained(
             model_id, token=self.hf_token, cache_dir=self.cache_dir
         )
-        
-        # 2. Load 0.5B Model (Very fast loading)
-        # Using low_cpu_mem_usage to prevent the UI from hanging
+
         self.model = AutoModelForCausalLM.from_pretrained(
             model_id,
             token=self.hf_token,
@@ -28,7 +25,7 @@ class ResponseGenerator:
             trust_remote_code=True
         )
 
-        # 3. Build the Text Generation Pipeline
+        # Build the Text Generation Pipeline
         self.gen_pipeline = pipeline(
             "text-generation",
             model=self.model,
@@ -55,7 +52,7 @@ class ResponseGenerator:
         outputs = self.gen_pipeline(
             prompt, 
             max_new_tokens=512, 
-            temperature=0.1, # Low temp for factual RAG answers
+            temperature=0.1, 
             do_sample=True,
             pad_token_id=self.tokenizer.eos_token_id
         )
