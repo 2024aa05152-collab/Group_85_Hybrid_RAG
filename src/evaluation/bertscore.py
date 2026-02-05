@@ -53,18 +53,37 @@ class BERTScoreEvaluator:
 
     def _get_embeddings(self, texts: List[str]) -> np.ndarray:
         """Get BERT embeddings for texts"""
-        embeddings = []
-        
-        for text in texts:
-            with torch.no_grad():
-                inputs = self.tokenizer(text, return_tensors="pt", 
-                                       truncation=True, max_length=512, 
-                                       padding=True)
-                outputs = self.model(**inputs)
-                # Use mean pooling of last hidden state
-                embedding = outputs.last_hidden_state.mean(dim=1).squeeze().numpy()
-                embeddings.append(embedding)
-        
+        # Tokenize the batch of texts at once (ensures consistent padding)
+        inputs = self.tokenizer(
+            texts,
+            return_tensors="pt",
+            truncation=True,
+            max_length=512,
+            padding=True,
+        )
+
+        # Move inputs to the model device
+        device = next(self.model.parameters()).device
+        for k, v in inputs.items():
+            inputs[k] = v.to(device)
+
+        with torch.no_grad():
+            outputs = self.model(**inputs)
+
+            last_hidden = outputs.last_hidden_state  # (batch, seq_len, hidden)
+
+            # Attention-mask-aware mean pooling if available
+            if "attention_mask" in inputs:
+                mask = inputs["attention_mask"].unsqueeze(-1).to(dtype=last_hidden.dtype)
+                summed = (last_hidden * mask).sum(dim=1)
+                lengths = mask.sum(dim=1).clamp(min=1e-9)
+                pooled = summed / lengths
+            else:
+                pooled = last_hidden.mean(dim=1)
+
+            # Move to CPU and convert to numpy
+            embeddings = pooled.detach().cpu().numpy()
+
         return np.array(embeddings)
 
     def calculate_bertscore(self, generated_answer: str, 

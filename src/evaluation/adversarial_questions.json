@@ -1,0 +1,20 @@
+[
+  {
+    "id": "A1",
+    "type": "negated",
+    "question": "Which of the following is NOT a cause of World War I?",
+    "answerable": true
+  },
+  {
+    "id": "A2",
+    "type": "unanswerable",
+    "question": "What was Albert Einstein's favorite smartphone?",
+    "answerable": false
+  },
+  {
+    "id": "A3",
+    "type": "paraphrase",
+    "question": "Explain the primary reason behind the French Revolution.",
+    "answerable": true
+  }
+]
