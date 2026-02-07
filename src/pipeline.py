@@ -61,13 +61,18 @@ except ImportError:
 from ingestion.wikipedia_loader import WikipediaLoader
 from ingestion.text_cleaner import TextCleaner
 from ingestion.chunker import TextChunker
-from indexing.dense_index import DenseIndexer
-from indexing.sparse_index import SparseIndexer
-from indexing.hybrid_rrf import HybridRetriever
+#from indexing.dense_index import DenseIndexer
+#from indexing.sparse_index import SparseIndexer
+#from indexing.hybrid_rrf import HybridRetriever
+from retrieval.dense_retriever import DenseRetriever
+from retrieval.sparse_retriever import SparseRetriever
+from retrieval.hybrid_retriever import HybridRetriever
+
 from generation.llm_generator import LLMGenerator
 from evaluation.mrr import MRREvaluator
 from evaluation.bleu import BLEUEvaluator
 from evaluation.custom_metrics import CustomMetricsEvaluator
+from evaluation.run_innovative_eval import run_full_innovative_evaluation
 
 logging.basicConfig(
     level=logging.INFO,
@@ -230,6 +235,19 @@ class HybridRAGPipeline:
         logger.info("\nStep 6: Generating Report")
         self.generate_report(evaluation_results)
 
+        # Step 7: Run Innovative Evaluation Pipeline (Assignment Part 2.4)
+        logger.info("\nStep 7: Running Innovative Automated Evaluation Pipeline")
+
+        try:
+            run_full_innovative_evaluation(
+                questions_path=self.file_paths["questions"],
+                corpus_path=self.file_paths["corpus_chunks"],
+                outputs_dir=OUTPUTS_DIR
+            )
+            logger.info("Innovative evaluation completed successfully.")
+        except Exception as e:
+            logger.error(f"Innovative evaluation failed: {e}")
+
         total_time = time.time() - start_time
         logger.info(f"\nPipeline completed in {total_time:.2f} seconds")
         logger.info("=" * 60)
@@ -259,7 +277,7 @@ class HybridRAGPipeline:
     def build_indices(self, chunks):
         """Step 2: Build dense and sparse indices"""
         logger.info("Building dense index...")
-        dense_indexer = DenseIndexer(
+        dense_indexer = DenseRetriever(
             model_name=MODEL_CONFIG["embedding_model"]
         )
         dense_indexer.build_index(chunks)
@@ -269,7 +287,7 @@ class HybridRAGPipeline:
         )
 
         logger.info("Building sparse index...")
-        sparse_indexer = SparseIndexer()
+        sparse_indexer = SparseRetriever()
         sparse_indexer.build_index(chunks)
         sparse_indexer.save_index(
             self.file_paths["bm25_index"],
@@ -277,13 +295,13 @@ class HybridRAGPipeline:
         )
 
         # Create retrievers
-        dense_retriever = DenseIndexer(MODEL_CONFIG["embedding_model"])
+        dense_retriever = DenseRetriever(MODEL_CONFIG["embedding_model"])
         dense_retriever.load_index(
             self.file_paths["faiss_index"],
             self.file_paths["metadata"]
         )
 
-        sparse_retriever = SparseIndexer()
+        sparse_retriever = SparseRetriever()
         sparse_retriever.load_index(
             self.file_paths["bm25_index"],
             self.file_paths["metadata"]
@@ -516,10 +534,10 @@ def main():
         questions = pipeline.generate_evaluation_questions(chunks)
 
         # Load indices
-        dense_retriever = DenseIndexer(MODEL_CONFIG["embedding_model"])
+        dense_retriever = DenseRetriever(MODEL_CONFIG["embedding_model"])
         dense_retriever.load_index(FILE_PATHS["faiss_index"], FILE_PATHS["metadata"])
 
-        sparse_retriever = SparseIndexer()
+        sparse_retriever = SparseRetriever()
         sparse_retriever.load_index(FILE_PATHS["bm25_index"], FILE_PATHS["metadata"])
 
         hybrid_retriever = HybridRetriever(dense_retriever, sparse_retriever)

@@ -137,6 +137,38 @@ def run_adversarial_tests(
     print(f"[METRIC] Hallucination Rate: {hallucination_rate:.2f}")
     print(f"[SAVED] Results written to {output_path}")
 
+# -----------------------------
+# FULL INNOVATIVE EVALUATION
+# -----------------------------
+def run_full_innovative_evaluation(
+    questions_path: str,
+    corpus_path: str,
+    outputs_dir: str
+):
+    """
+    Wrapper function required for Assignment Part 2.4.
+
+    Runs:
+    - Adversarial testing
+    - Saves structured outputs inside outputs_dir
+    """
+
+    print("\n[INFO] Starting FULL Innovative Evaluation Pipeline (Part 2.4)")
+
+    outputs_dir = Path(outputs_dir)
+    outputs_dir.mkdir(exist_ok=True, parents=True)
+
+    # Output file for adversarial results
+    adversarial_output = outputs_dir / "adversarial_results.csv"
+
+    # Run adversarial evaluation (Section 2.3)
+    run_adversarial_tests(
+        questions_path=questions_path,
+        output_path=str(adversarial_output)
+    )
+
+    print("[INFO] Innovative evaluation finished successfully.")
+    print(f"[SAVED] Adversarial results → {adversarial_output}")
 
 # -----------------------------
 # MAIN ENTRY POINT

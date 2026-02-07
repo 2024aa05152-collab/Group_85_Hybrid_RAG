@@ -2,8 +2,8 @@ import os
 import json
 import tiktoken
 import uuid
-from wikipedia_loader import WikipediaLoader
-from text_cleaner import TextCleaner
+from ingestion.wikipedia_loader import WikipediaLoader
+from ingestion.text_cleaner import TextCleaner
 
 class WikipediaChunker:
     def __init__(self, chunk_size=400, chunk_overlap=50):
@@ -84,3 +84,35 @@ def run_pipeline():
 
 if __name__ == "__main__":
     run_pipeline()
+
+    # --------------------------------------------------
+# Compatibility wrapper for main pipeline
+# --------------------------------------------------
+
+class TextChunker(WikipediaChunker):
+    """
+    Wrapper so pipeline.py can use TextChunker name
+    without changing original implementation.
+    """
+
+    def process_documents(self, pages):
+        """
+        Convert cleaned pages into chunk format expected by pipeline
+        """
+        all_chunks = []
+
+        for page in pages:
+            chunks = self.create_chunks(page["text"], page["url"], page["title"])
+            all_chunks.extend(chunks)
+
+        return all_chunks
+
+    def save_chunks(self, chunks, path):
+        import json
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(chunks, f, indent=2, ensure_ascii=False)
+
+    def load_chunks(self, path):
+        import json
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
