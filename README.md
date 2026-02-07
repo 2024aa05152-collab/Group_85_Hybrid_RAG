@@ -19,6 +19,8 @@ A hybrid Retrieval-Augmented Generation system combining dense vector retrieval 
  4) 100 Questions generated from 500 Wikipedia URLs: https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG/blob/develop/data/questions_100.json
  5) Corpus chunks: https://raw.githubusercontent.com/2024aa05152-collab/Group_85_Hybrid_RAG/refs/heads/develop/data/corpus_chunks.json
  6) Evaluation results: https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG/tree/develop/outputs
+ 7) dense.index: https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG/blob/develop/data/dense.index
+ 8) sparse.pkl: https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG/blob/develop/data/sparse.pkl
 
 ---
 
