@@ -1,0 +1,27 @@
+GitHub Link: 
+https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG
+
+--------------------------------------
+
+Important Links:
+
+Fixed 200 Wikipedia URLs: 
+https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG/blob/develop/data/fixed_urls.json
+
+Random 300 Wikipedia URLs:
+https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG/blob/develop/data/random_urls.json
+
+100 Questions generated from 500 Wikipedia URLs:
+https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG/blob/develop/data/questions_100.json
+
+Corpus chunks:
+https://raw.githubusercontent.com/2024aa05152-collab/Group_85_Hybrid_RAG/refs/heads/develop/data/corpus_chunks.json
+
+Evaluation results:
+https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG/tree/develop/outputs
+
+dense.index:
+https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG/blob/develop/data/dense.index
+
+sparse.pkl:
+https://github.com/2024aa05152-collab/Group_85_Hybrid_RAG/blob/develop/data/sparse.pkl
